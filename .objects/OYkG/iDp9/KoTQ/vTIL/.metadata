@@ -1,0 +1,14 @@
+﻿{
+  "Id": "vTILI_TWOUi5ljBLQUJ6zQ",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/vTILI_TWOUi5ljBLQUJ6zQ",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/KoTQwss6g0m7L_1WCYlYyg",
+  "Name": "API Settings Icon",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2020-10-21T04:39:33.5730289Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-21T04:39:33.5730289Z"
+}

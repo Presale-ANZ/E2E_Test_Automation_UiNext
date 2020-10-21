@@ -1,0 +1,14 @@
+﻿{
+  "Id": "bbMz2fdgg0WiPRzdxFBW-g",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/bbMz2fdgg0WiPRzdxFBW-g",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/KoTQwss6g0m7L_1WCYlYyg",
+  "Name": "Password",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2020-10-21T04:39:13.6133933Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-21T04:39:13.6133933Z"
+}

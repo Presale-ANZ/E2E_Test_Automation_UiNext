@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp ContentHash="o627XjvBkkWDD-fjcVz0kQ" FilePath="C:\Emerald\UiBank\UiBank Admin\uibankadmin.exe" Selector="&lt;wnd app='uibankadmin.exe' ctrlname='VBInputBox'/&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0tUE-WBLgPUq1Z7ghOkdcgQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="d9bc247b42dc6a7564c312b18430dd56.png" xmlns="">0Ld_Bv-8mVk68NVA_AGEsQg</imageRef>
+</TargetApp>

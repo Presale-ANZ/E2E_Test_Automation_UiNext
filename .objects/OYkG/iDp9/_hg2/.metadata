@@ -1,0 +1,15 @@
+﻿{
+  "Id": "_hg2gBfUMEa5aWa-pjUJ_A",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/_hg2gBfUMEa5aWa-pjUJ_A",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/iDp9oRM8U0GyjYpHTgwBWA",
+  "Name": "API Settings",
+  "Type": "Screen",
+  "Created": "2020-10-21T04:41:15.7102806Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-21T04:41:28.0467239Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="N9UNCQALIkyFXkxeRVZVYA" DesignTimeRectangle="36, 242, 670, 40" ElementType="InputBox" FriendlyName="'https://uibank-api.uipa…'" FullSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='VBInputBox' /&gt;&lt;wnd ctrlname='TextBox' /&gt;" FuzzySelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='VBInputBox' /&gt;&lt;wnd ctrlname='TextBox' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="https://uibank-api.uipath.com/api" TextMethod="AttributeText" TextSelector="&lt;wnd /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="1">
+      <Target DesignTimeRectangle="36, 82, 500, 140" ElementType="Text" FriendlyName="'The current'" FullSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='VBInputBox' /&gt;&lt;wnd ctrlname='Label' /&gt;" FuzzySelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='VBInputBox' /&gt;&lt;wnd ctrlname='Label' check:text='The current API endpoint URL is:' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="The current API endpoint URL is:" TextMethod="AttributeText" TextSelector="&lt;wnd /&gt;">
+        <imageRef attrName="ImageBase64" xmlns="">14MtlO81PIkue3Av3NvqP2Q</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0k2jf0lYIUEuvaSG-dgVhOQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="382040673ec68fac4dc9b5ee23743507.png" xmlns="">0kU0zM6KK306QfqVxY5gK0Q</imageRef>
+</TargetAnchorable>

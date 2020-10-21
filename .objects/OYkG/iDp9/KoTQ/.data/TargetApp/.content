@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp ContentHash="uaZFaH7gj0WmK_eC5LaVIQ" FilePath="C:\Emerald\UiBank\UiBank Admin\uibankadmin.exe" Reference="onZsbVircEKStCOfXcT3Hw/Ubxcbd0Wh0mdmDVsMI1Gmg" Selector="&lt;wnd app='uibankadmin.exe' ctrlname='Login'/&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0M4DFS8yAhkK7BWmBvFmDVw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="44a30cff45b544bbcd6b87ea46f21551.png" xmlns="">0rLg_jZPhUUClSvH9OViOaA</imageRef>
+</TargetApp>

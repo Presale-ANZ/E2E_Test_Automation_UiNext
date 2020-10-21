@@ -1,0 +1,18 @@
+﻿{
+  "Id": "KoTQwss6g0m7L_1WCYlYyg",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/KoTQwss6g0m7L_1WCYlYyg",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/iDp9oRM8U0GyjYpHTgwBWA",
+  "Name": "UiBank Login Screen",
+  "Description": "UiBank Login Screen",
+  "Type": "Screen",
+  "TaxonomyType": "Screen",
+  "Created": "2020-10-21T04:38:03.3969925Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-21T04:38:55.4855727Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

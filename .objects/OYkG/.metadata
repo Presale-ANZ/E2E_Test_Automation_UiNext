@@ -1,0 +1,12 @@
+﻿{
+  "Id": "OYkGls4YfUqKOMz75twMng",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/OYkGls4YfUqKOMz75twMng",
+  "Name": "UiBank Desktop",
+  "Description": "UiBank Desktop",
+  "Type": "App",
+  "Created": "2020-10-21T04:37:48.1587265Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-21T04:37:48.1587265Z"
+}
