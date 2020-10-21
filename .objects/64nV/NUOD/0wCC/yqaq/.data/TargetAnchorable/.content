@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://uibank.uipath.com/loans/lookup" ContentHash="CzH3yVeLkUWCB2XxXL5EQg" DesignTimeRectangle="1127, 1023, 1600, 76" ElementType="InputBox" FriendlyName="'INPUT  quoteID'" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank' /&gt;&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank' /&gt;&lt;webctrl tag='INPUT' type='text' aaname='' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="1">
+      <Target DesignTimeRectangle="1127, 959, 290, 48" ElementType="Text" FriendlyName="'Enter Your Loan ID:'" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank' /&gt;&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank' /&gt;&lt;webctrl tag='LABEL' type='' aaname='Enter Your Loan ID:' check:text='Enter Your Loan ID:' /&gt;" SearchSteps="FuzzySelector, Image" Text="Enter Your Loan ID:" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='LABEL' type='' /&gt;">
+        <imageRef attrName="ImageBase64" xmlns="">1NQOTPA8ttUicjqew7Gh8_g</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0n0dULYXZL0eIAxrGNIth_A</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="e536833b73af53f6d18570c5ac09a7f7.png" xmlns="">0nLOtdMBFxU-dVoN2mnVqww</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,14 @@
+﻿{
+  "Id": "8F_BhrUUo0eVAZYBQU_4ig",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/8F_BhrUUo0eVAZYBQU_4ig",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/0wCCpk9F8069eUolX2Zg1w",
+  "Name": "Products Menu",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2020-10-21T05:24:17.5344325Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-21T05:24:17.5344325Z"
+}

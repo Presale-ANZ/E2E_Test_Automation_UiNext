@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://uibank.uipath.com/" ContentHash="xojS8wYCTkKe86LcckdZ3Q" DesignTimeRectangle="2714, 366, 336, 64" ElementType="Text" FriendlyName="'Loans'" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank' /&gt;&lt;webctrl aaname='Loans' tag='A' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank' /&gt;&lt;webctrl aaname='Loans' tag='A' type='' check:text='Loans' /&gt;" SearchSteps="FuzzySelector, Image" Text="Loans" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='A' type='' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="1">
+      <Target DesignTimeRectangle="2712, 264, 209, 80" ElementType="Text" FriendlyName="'Products'" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank' /&gt;&lt;webctrl id='navbarDropdown' tag='A' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank' /&gt;&lt;webctrl id='navbarDropdown' tag='A' type='' aaname=' Products ' check:text='Products' /&gt;" SearchSteps="FuzzySelector, Image" Text="Products" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='A' type='' /&gt;">
+        <imageRef attrName="ImageBase64" xmlns="">1zTmLo3Pu8EqhjF0KKg66yw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0XIHff7mQmEGCkOR-Gdl7Fg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="ddeb77d26dbaf6691476a15f58e8b9c2.png" xmlns="">09fTkU1SSXE-HvWDxbt0dDQ</imageRef>
+</TargetAnchorable>

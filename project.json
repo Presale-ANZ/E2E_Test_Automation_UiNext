@@ -16,7 +16,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.10.0.0",
-  "projectVersion": "0.0.6-alpha",
+  "projectVersion": "0.0.6-alpha.1",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -205,6 +205,24 @@
     {
       "filePath": "UiBank UiAutomationNext\\Login Admin V2 UiAutomationNext.xaml",
       "uniqueId": "9ca03e35-2c21-4eb4-bb6f-be4bc7773446",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "UiBank API\\UiBank - API High Volume Loan.xaml",
+      "uniqueId": "3300d0c3-1468-4f10-9b24-4b858525a3a2",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "UiBank API\\UiBank - API Long Term Loan.xaml",
+      "uniqueId": "e3e12b25-ad77-4e8c-8f7a-8e74e377b823",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "UiBank API\\UiBank - API Lookup Loan.xaml",
+      "uniqueId": "f51b6104-8f9b-4483-98b6-2bdfec7d41e9",
       "input": [],
       "output": []
     }

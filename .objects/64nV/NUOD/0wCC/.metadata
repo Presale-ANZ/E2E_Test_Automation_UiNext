@@ -1,0 +1,15 @@
+﻿{
+  "Id": "0wCCpk9F8069eUolX2Zg1w",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/0wCCpk9F8069eUolX2Zg1w",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/NUODBQ6mMU6ID-7OXdXXwg",
+  "Name": "UiBank Home Page",
+  "Description": "UiBank Home Page",
+  "Type": "Screen",
+  "TaxonomyType": "Screen",
+  "Created": "2020-10-21T05:23:42.9462128Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-21T05:23:42.9462128Z"
+}

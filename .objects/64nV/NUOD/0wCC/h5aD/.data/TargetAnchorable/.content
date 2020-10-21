@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://uibank.uipath.com/loans/lookup" ContentHash="8Fdmvwh3qE6pOwNOBjp64w" DesignTimeRectangle="1447, 1195, 960, 100" ElementType="Button" FriendlyName="'Retrieve Loan Details'" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank' /&gt;&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank' /&gt;&lt;webctrl tag='BUTTON' type='submit' aaname='Retrieve Loan Details' check:text='Retrieve Loan Details' /&gt;" SearchSteps="FuzzySelector, Image" Text="Retrieve Loan Details" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='BUTTON' type='submit' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0M_oWD5e4LEmNHZjkI1_PqA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="d9afdab50fa4b7fa08d93a565f71730c.png" xmlns="">0bYUtvV9150uOw0DoNh4vXA</imageRef>
+</TargetAnchorable>
