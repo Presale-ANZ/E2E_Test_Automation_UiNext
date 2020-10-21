@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Test" this:Test.AccountNumber="24262820" this:Test.Address="3 Bumpers Batch, Bath, Somerset, BA2 5SQ" this:Test.Delay="1000" this:Test.UpdatedBirthDate="08/10/1975" this:Test.FolderName="Anthony Seagar" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:ss="clr-namespace:System.Security;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Test" this:Test.AccountNumber="24262820" this:Test.Address="3 Bumpers Batch, Bath, Somerset, BA2 5SQ" this:Test.Delay="1000" this:Test.UpdatedBirthDate="08/10/1975" this:Test.FolderName="Anthony Seagar" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:this="clr-namespace:" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="AccountNumber" Type="InArgument(x:String)" />
     <x:Property Name="LastName" Type="InArgument(x:String)" />
@@ -16,7 +16,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1303.2,1158.4</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>955.2,1219.2</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>TestCase_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -77,6 +77,9 @@
       <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -84,7 +87,7 @@
       <x:Boolean x:Key="ShouldCollapseAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Test Case" sap:VirtualizedContainerService.HintSize="312.8,993.6" sap2010:WorkflowViewState.IdRef="Sequence_6">
+  <Sequence DisplayName="Test Case" sap:VirtualizedContainerService.HintSize="312.8,1054.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="UiBankMainFolder" />
       <Variable x:TypeArguments="x:String" Name="UiBankMainApp" />
@@ -95,48 +98,24 @@
         <x:Boolean x:Key="IsPinned">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Given" sap:VirtualizedContainerService.HintSize="271.2,529.6" sap2010:WorkflowViewState.IdRef="Sequence_8">
+    <Sequence DisplayName="Given" sap:VirtualizedContainerService.HintSize="271.2,497.6" sap2010:WorkflowViewState.IdRef="Sequence_8">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="229.6,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_1">
-        <ui:CommentOut.Body>
-          <Sequence DisplayName="Ignored Activities" sap2010:WorkflowViewState.IdRef="Sequence_14">
-            <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Setup Environment" sap:VirtualizedContainerService.HintSize="229.6,52.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="UiBank Environment\Setup Environment.xaml">
-              <ui:InvokeWorkflowFile.Arguments>
-                <OutArgument x:TypeArguments="x:String" x:Key="UiBankAPI" />
-                <OutArgument x:TypeArguments="x:String" x:Key="UiBankWeb" />
-                <OutArgument x:TypeArguments="x:String" x:Key="UiBankAdmin" />
-                <OutArgument x:TypeArguments="x:String" x:Key="UiBankMainApp">[UiBankMainApp]</OutArgument>
-                <OutArgument x:TypeArguments="x:String" x:Key="UiBankMainFolder">[UiBankMainFolder]</OutArgument>
-                <OutArgument x:TypeArguments="ss:SecureString" x:Key="AdminPassword" />
-                <OutArgument x:TypeArguments="x:String" x:Key="AdminUsername" />
-                <OutArgument x:TypeArguments="ss:SecureString" x:Key="SuperAdminPassword" />
-              </ui:InvokeWorkflowFile.Arguments>
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-            </ui:InvokeWorkflowFile>
-          </Sequence>
-        </ui:CommentOut.Body>
-      </ui:CommentOut>
-      <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="UiBank Mainframe App" DisplayName="Set UiBank Main App" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="229.6,22.4" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
+      <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="UiBank Mainframe App" DisplayName="Set UiBank Main App" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="229.6,52.8" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
         <ui:GetRobotAsset.Value>
           <OutArgument x:TypeArguments="x:String">[UiBankMainApp]</OutArgument>
         </ui:GetRobotAsset.Value>
       </ui:GetRobotAsset>
-      <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="UiBank Mainframe Folder" DisplayName="Set UiBank Main Folder" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="229.6,22.4" sap2010:WorkflowViewState.IdRef="GetRobotAsset_2">
+      <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="UiBank Mainframe Folder" DisplayName="Set UiBank Main Folder" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="229.6,52.8" sap2010:WorkflowViewState.IdRef="GetRobotAsset_2">
         <ui:GetRobotAsset.Value>
           <OutArgument x:TypeArguments="x:String">[UiBankMainFolder]</OutArgument>
         </ui:GetRobotAsset.Value>
       </ui:GetRobotAsset>
-      <WriteLine DisplayName="Write Environment Setup" sap:VirtualizedContainerService.HintSize="229.6,64" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[Environment.NewLine +&#xA;&quot;*******************&quot; +&#xA;Environment.NewLine + &#xA;&quot;Environment Start&quot; +&#xA;Environment.NewLine + &#xA;&quot;*******************&quot; +&#xA;Environment.NewLine + &#xA;&quot;UiBank Mainframe: &quot; + UiBankMainFolder +&#xA;Environment.NewLine + &#xA;&quot;*******************&quot; +&#xA;Environment.NewLine + &#xA;&quot;Environment End&quot; +&#xA;Environment.NewLine + &#xA;&quot;*******************&quot; +&#xA;Environment.NewLine]" />
+      <WriteLine DisplayName="Write Environment Setup" sap:VirtualizedContainerService.HintSize="229.6,64" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[Environment.NewLine +&#xD;&#xA;&quot;*******************&quot; +&#xD;&#xA;Environment.NewLine + &#xD;&#xA;&quot;Environment Start&quot; +&#xD;&#xA;Environment.NewLine + &#xD;&#xA;&quot;*******************&quot; +&#xD;&#xA;Environment.NewLine + &#xD;&#xA;&quot;UiBank Mainframe: &quot; + UiBankMainFolder +&#xD;&#xA;Environment.NewLine + &#xD;&#xA;&quot;*******************&quot; +&#xD;&#xA;Environment.NewLine + &#xD;&#xA;&quot;Environment End&quot; +&#xD;&#xA;Environment.NewLine + &#xD;&#xA;&quot;*******************&quot; +&#xD;&#xA;Environment.NewLine]" />
       <ui:StartProcess Arguments="{x:Null}" DisplayName="Start UiBank Mainframe" FileName="[UiBankMainApp]" sap:VirtualizedContainerService.HintSize="229.6,52.8" sap2010:WorkflowViewState.IdRef="StartProcess_1" WorkingDirectory="[UiBankMainFolder]">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -412,7 +391,7 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </ui:TypeInto>
-              <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" ApiKey="D6L2mNqLFFqm0XijkUaRzSHUyQXRMQFQ7kTyAfVPPyS3OeePQr9XhUhab0wNIgpv" DisplayName="Get Birthdate" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="CVScope_2" Version="V1">
+              <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" UseLocalServer="{x:Null}" ApiKey="D6L2mNqLFFqm0XijkUaRzSHUyQXRMQFQ7kTyAfVPPyS3OeePQr9XhUhab0wNIgpv" DisplayName="Get Birthdate" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="CVScope_2" Version="V1">
                 <p:CVScope.Body>
                   <ActivityAction x:TypeArguments="x:Object">
                     <ActivityAction.Argument>
