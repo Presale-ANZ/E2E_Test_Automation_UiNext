@@ -14,7 +14,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.10.0.0",
-  "projectVersion": "0.0.2",
+  "projectVersion": "0.0.3",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -63,6 +63,26 @@
         "editingStatus": "InProgress",
         "testCaseId": "dfcd99a0-2d1a-4ae7-93f9-50a72e97b9df",
         "fileName": "UiBank SAP\\SAP Fiori\\Purchase Item.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "c96d099a-c667-4eb2-8d8b-4250635de0dc",
+        "fileName": "UiBank UiAutomationNext\\Login Admin V1 Selectors.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "973bc9ad-d64d-46d7-b8d0-eea4212da961",
+        "fileName": "UiBank UiAutomationNext\\Login Admin V1 UiAutomationNext.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ce6c1693-6268-472a-8bea-d627b398bd20",
+        "fileName": "UiBank UiAutomationNext\\Login Admin V2 Selectors.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "afe7e704-a6cc-4fde-92f9-3d85c378fc7b",
+        "fileName": "UiBank UiAutomationNext\\Login Admin V2 UiAutomationNext.xaml"
       }
     ],
     "modernBehavior": true
