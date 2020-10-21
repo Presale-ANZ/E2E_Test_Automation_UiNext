@@ -5,16 +5,18 @@
   "dependencies": {
     "Faker.Data": "[1.0.8]",
     "ShowDesktop.Activities": "[1.0.0]",
+    "UiBank.Postman.Collections": "[1.0.4]",
     "UiPath.Excel.Activities": "[2.9.3]",
     "UiPath.System.Activities": "[20.10.1-beta.1162306]",
     "UiPath.Testing.Activities": "[1.2.4]",
-    "UiPath.UIAutomation.Activities": "[20.10.6]"
+    "UiPath.UIAutomation.Activities": "[20.10.6]",
+    "UiPath.WebAPI.Activities": "[1.6.0]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.10.0.0",
-  "projectVersion": "0.0.56954849-alpha.7",
+  "projectVersion": "0.0.6-alpha",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -88,6 +90,21 @@
         "editingStatus": "Publishable",
         "testCaseId": "9ca03e35-2c21-4eb4-bb6f-be4bc7773446",
         "fileName": "UiBank UiAutomationNext\\Login Admin V2 UiAutomationNext.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "3300d0c3-1468-4f10-9b24-4b858525a3a2",
+        "fileName": "UiBank API\\UiBank - API High Volume Loan.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e3e12b25-ad77-4e8c-8f7a-8e74e377b823",
+        "fileName": "UiBank API\\UiBank - API Long Term Loan.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f51b6104-8f9b-4483-98b6-2bdfec7d41e9",
+        "fileName": "UiBank API\\UiBank - API Lookup Loan.xaml"
       }
     ],
     "modernBehavior": true
@@ -103,12 +120,91 @@
     {
       "filePath": "UiBank SAP\\SAP WinGUI\\Test Cases\\Create Data-Driven Order.xaml",
       "uniqueId": "5eb5c836-29cc-4852-9beb-771b1f7ae2ea",
-      "input": [],
+      "input": [
+        {
+          "name": "DistributionChannel",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "Materials",
+          "type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "OrderType",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "Plant",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "SalesOrganisation",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "ShiptoParty",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "SoldtoParty",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "ExpectedNetvalue",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "items",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        }
+      ],
       "output": []
     },
     {
       "filePath": "UiBank SAP\\SAP WinGUI\\Test Cases\\Create Standard Order.xaml",
       "uniqueId": "3785932c-ac42-45ba-aaab-561d10009ce8",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "UiBank UiAutomationNext\\Login Admin V1 Selectors.xaml",
+      "uniqueId": "51cf8b71-d89e-4442-82b4-d48468b0231b",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "UiBank UiAutomationNext\\Login Admin V2 Selectors.xaml",
+      "uniqueId": "84bd8b6d-ec6c-4420-9fe9-ad70192d81bb",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "UiBank UiAutomationNext\\Login Admin V1 UiAutomationNext.xaml",
+      "uniqueId": "f5649c67-bb4f-4646-8e3f-95501ee7b1fc",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "UiBank UiAutomationNext\\Login Admin V2 UiAutomationNext.xaml",
+      "uniqueId": "9ca03e35-2c21-4eb4-bb6f-be4bc7773446",
       "input": [],
       "output": []
     }
