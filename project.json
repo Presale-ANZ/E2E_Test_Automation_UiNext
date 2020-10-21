@@ -16,7 +16,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.10.0.0",
-  "projectVersion": "0.0.6-alpha.1",
+  "projectVersion": "0.0.56957210-alpha.2",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -105,6 +105,16 @@
         "editingStatus": "Publishable",
         "testCaseId": "f51b6104-8f9b-4483-98b6-2bdfec7d41e9",
         "fileName": "UiBank API\\UiBank - API Lookup Loan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8ff642a8-9df8-4b66-82de-4dc186b8dcb0",
+        "fileName": "UiBank Mainframe\\UiBank Mainframe - Modify Birthdate.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "fc09400c-f89d-4432-8f6e-b344fe9d553a",
+        "fileName": "UiBank Mainframe\\UiBank Mainframe - Modify Birthdate No Change.xaml"
       }
     ],
     "modernBehavior": true
@@ -120,62 +130,7 @@
     {
       "filePath": "UiBank SAP\\SAP WinGUI\\Test Cases\\Create Data-Driven Order.xaml",
       "uniqueId": "5eb5c836-29cc-4852-9beb-771b1f7ae2ea",
-      "input": [
-        {
-          "name": "DistributionChannel",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "Materials",
-          "type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "OrderType",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "Plant",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "SalesOrganisation",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "ShiptoParty",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "SoldtoParty",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "ExpectedNetvalue",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "items",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        }
-      ],
+      "input": [],
       "output": []
     },
     {

@@ -1,0 +1,672 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Test" this:Test.AccountNumber="24262820" this:Test.Address="3 Bumpers Batch, Bath, Somerset, BA2 5SQ" this:Test.Delay="1000" this:Test.UpdatedBirthDate="08/10/1975" this:Test.FolderName="Anthony Seagar" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:ss="clr-namespace:System.Security;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="AccountNumber" Type="InArgument(x:String)" />
+    <x:Property Name="LastName" Type="InArgument(x:String)" />
+    <x:Property Name="Address" Type="InArgument(x:String)" />
+    <x:Property Name="Delay" Type="InArgument(x:Int32)" />
+    <x:Property Name="UpdatedBirthDate" Type="InArgument(x:String)" />
+    <x:Property Name="ActualBirthDate" Type="InArgument(x:String)" />
+    <x:Property Name="FolderName" Type="InArgument(x:String)" />
+  </x:Members>
+  <this:Test.LastName>
+    <InArgument x:TypeArguments="x:String">
+      <Literal x:TypeArguments="x:String" Value="" />
+    </InArgument>
+  </this:Test.LastName>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1303.2,1158.4</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>TestCase_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>UiPath.MobileAutomation</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationX</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldCollapseAll">True</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence DisplayName="Test Case" sap:VirtualizedContainerService.HintSize="312.8,993.6" sap2010:WorkflowViewState.IdRef="Sequence_6">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="UiBankMainFolder" />
+      <Variable x:TypeArguments="x:String" Name="UiBankMainApp" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsPinned">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Given" sap:VirtualizedContainerService.HintSize="271.2,529.6" sap2010:WorkflowViewState.IdRef="Sequence_8">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="229.6,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+        <ui:CommentOut.Body>
+          <Sequence DisplayName="Ignored Activities" sap2010:WorkflowViewState.IdRef="Sequence_14">
+            <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Setup Environment" sap:VirtualizedContainerService.HintSize="229.6,52.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="UiBank Environment\Setup Environment.xaml">
+              <ui:InvokeWorkflowFile.Arguments>
+                <OutArgument x:TypeArguments="x:String" x:Key="UiBankAPI" />
+                <OutArgument x:TypeArguments="x:String" x:Key="UiBankWeb" />
+                <OutArgument x:TypeArguments="x:String" x:Key="UiBankAdmin" />
+                <OutArgument x:TypeArguments="x:String" x:Key="UiBankMainApp">[UiBankMainApp]</OutArgument>
+                <OutArgument x:TypeArguments="x:String" x:Key="UiBankMainFolder">[UiBankMainFolder]</OutArgument>
+                <OutArgument x:TypeArguments="ss:SecureString" x:Key="AdminPassword" />
+                <OutArgument x:TypeArguments="x:String" x:Key="AdminUsername" />
+                <OutArgument x:TypeArguments="ss:SecureString" x:Key="SuperAdminPassword" />
+              </ui:InvokeWorkflowFile.Arguments>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:InvokeWorkflowFile>
+          </Sequence>
+        </ui:CommentOut.Body>
+      </ui:CommentOut>
+      <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="UiBank Mainframe App" DisplayName="Set UiBank Main App" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="229.6,22.4" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
+        <ui:GetRobotAsset.Value>
+          <OutArgument x:TypeArguments="x:String">[UiBankMainApp]</OutArgument>
+        </ui:GetRobotAsset.Value>
+      </ui:GetRobotAsset>
+      <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="UiBank Mainframe Folder" DisplayName="Set UiBank Main Folder" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="229.6,22.4" sap2010:WorkflowViewState.IdRef="GetRobotAsset_2">
+        <ui:GetRobotAsset.Value>
+          <OutArgument x:TypeArguments="x:String">[UiBankMainFolder]</OutArgument>
+        </ui:GetRobotAsset.Value>
+      </ui:GetRobotAsset>
+      <WriteLine DisplayName="Write Environment Setup" sap:VirtualizedContainerService.HintSize="229.6,64" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[Environment.NewLine +&#xA;&quot;*******************&quot; +&#xA;Environment.NewLine + &#xA;&quot;Environment Start&quot; +&#xA;Environment.NewLine + &#xA;&quot;*******************&quot; +&#xA;Environment.NewLine + &#xA;&quot;UiBank Mainframe: &quot; + UiBankMainFolder +&#xA;Environment.NewLine + &#xA;&quot;*******************&quot; +&#xA;Environment.NewLine + &#xA;&quot;Environment End&quot; +&#xA;Environment.NewLine + &#xA;&quot;*******************&quot; +&#xA;Environment.NewLine]" />
+      <ui:StartProcess Arguments="{x:Null}" DisplayName="Start UiBank Mainframe" FileName="[UiBankMainApp]" sap:VirtualizedContainerService.HintSize="229.6,52.8" sap2010:WorkflowViewState.IdRef="StartProcess_1" WorkingDirectory="[UiBankMainFolder]">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:StartProcess>
+      <Delay mva:VisualBasic.Settings="{x:Null}" DisplayName="Delay 3 second" Duration="00:00:03" sap:VirtualizedContainerService.HintSize="229.6,22.4" sap2010:WorkflowViewState.IdRef="Delay_1">
+        <TextExpression.Namespaces>
+          <sco:Collection x:TypeArguments="x:String">
+            <x:String>System.Activities</x:String>
+            <x:String>System.Activities.Statements</x:String>
+            <x:String>System.Activities.Expressions</x:String>
+            <x:String>System.Activities.Validation</x:String>
+            <x:String>System.Activities.XamlIntegration</x:String>
+            <x:String>Microsoft.VisualBasic.Activities</x:String>
+            <x:String>System</x:String>
+            <x:String>System.Collections.Generic</x:String>
+            <x:String>System.Data</x:String>
+            <x:String>System.Diagnostics</x:String>
+            <x:String>System.IO</x:String>
+            <x:String>System.Linq</x:String>
+            <x:String>System.Management.Automation</x:String>
+            <x:String>System.Net.Mail</x:String>
+            <x:String>System.Xml</x:String>
+            <x:String>System.Xml.Linq</x:String>
+            <x:String>UiPath.Library</x:String>
+            <x:String>System.Windows.Markup</x:String>
+          </sco:Collection>
+        </TextExpression.Namespaces>
+        <TextExpression.References>
+          <sco:Collection x:TypeArguments="AssemblyReference">
+            <AssemblyReference>System.Activities</AssemblyReference>
+            <AssemblyReference>mscorlib</AssemblyReference>
+            <AssemblyReference>System.Data</AssemblyReference>
+            <AssemblyReference>System</AssemblyReference>
+            <AssemblyReference>System.Core</AssemblyReference>
+            <AssemblyReference>System.Management.Automation</AssemblyReference>
+            <AssemblyReference>System.Xml</AssemblyReference>
+            <AssemblyReference>System.Xml.Linq</AssemblyReference>
+            <AssemblyReference>UiPath.Library</AssemblyReference>
+            <AssemblyReference>PresentationFramework</AssemblyReference>
+            <AssemblyReference>WindowsBase</AssemblyReference>
+            <AssemblyReference>PresentationCore</AssemblyReference>
+            <AssemblyReference>System.Xaml</AssemblyReference>
+          </sco:Collection>
+        </TextExpression.References>
+      </Delay>
+    </Sequence>
+    <Sequence DisplayName="When" sap:VirtualizedContainerService.HintSize="271.2,145.6" sap2010:WorkflowViewState.IdRef="Sequence_9">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Modify Birthdate" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="241e8122af8b5ed28c6f5118363bbd14" Selector="&lt;wnd app='cmd.exe' cls='ConsoleWindowClass' title='*' /&gt;">
+        <ui:WindowScope.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="241.6,1073.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DelayMS="[Delay]" DisplayName="Select Account Details" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="TypeInto_5" Text="1[k(enter)]">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="8299bf4e-8135-4081-8089-79de73c5f09c" InformativeScreenshot="427704fe74c13829371eff340e22060c">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+              </ui:TypeInto>
+              <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DelayMS="[Delay]" DisplayName="Enter Account Number" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="TypeInto_6" Text="[AccountNumber+ &quot;[k(enter)]&quot;]">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="9605433c-60a1-466e-9f05-926fda970c38" InformativeScreenshot="33933c501e5768f867c6c48f622a998d">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+              </ui:TypeInto>
+              <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DelayMS="[Delay]" DisplayName="Select Edit Details" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="TypeInto_7" Text="1[k(enter)]">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="a7315438-69c6-4683-8807-9b13b9591a35" InformativeScreenshot="427704fe74c13829371eff340e22060c">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+              </ui:TypeInto>
+              <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DelayMS="[Delay]" DisplayName="Edit Title" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="TypeInto_8" Text="%[k(enter)]">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="2c18adf8-8d3f-49b7-ba3d-6e61fe291d58" InformativeScreenshot="427704fe74c13829371eff340e22060c">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+              </ui:TypeInto>
+              <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DelayMS="[Delay]" DisplayName="Edit Name" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="TypeInto_9" Text="%[k(enter)]">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="1610312b-6de5-4e8c-b7c3-b914730946e7" InformativeScreenshot="427704fe74c13829371eff340e22060c">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+              </ui:TypeInto>
+              <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DelayMS="[Delay]" DisplayName="Edit Birthdate" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="TypeInto_10" Text="[UpdatedBirthDate.ToString+ &quot;[k(enter)]&quot;]">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="855e342b-8a7d-4573-adb0-3487d13963b5" InformativeScreenshot="427704fe74c13829371eff340e22060c">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+              </ui:TypeInto>
+              <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DelayMS="[Delay]" DisplayName="Edit Address" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="TypeInto_11" Text="%[k(enter)]">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="11eac1d4-49c4-4168-89b7-71899a3b851e" InformativeScreenshot="427704fe74c13829371eff340e22060c">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+              </ui:TypeInto>
+              <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DelayMS="[Delay]" DisplayName="Edit Gender" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="TypeInto_12" Text="%[k(enter)]">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="ca8faa23-abbf-4f81-a354-c9a80f310fde" InformativeScreenshot="427704fe74c13829371eff340e22060c">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+              </ui:TypeInto>
+              <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DelayMS="[Delay]" DisplayName="Edit Marital Status" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="TypeInto_13" Text="%[k(enter)]">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="83f17a7d-70f6-44ea-8379-ff71081885fc" InformativeScreenshot="427704fe74c13829371eff340e22060c">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+              </ui:TypeInto>
+              <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DelayMS="[Delay]" DisplayName="Edit Telephone Number" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="TypeInto_14" Text="%[k(enter)]">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="4425f3af-b18a-491b-99aa-0eeda670f221" InformativeScreenshot="427704fe74c13829371eff340e22060c">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+              </ui:TypeInto>
+              <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DelayMS="[Delay]" DisplayName="Continue" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="TypeInto_15" Text="%[k(enter)]">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="58277a75-a515-44ba-89c4-3d2f5025455f" InformativeScreenshot="427704fe74c13829371eff340e22060c">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:TypeInto>
+            </Sequence>
+          </ActivityAction>
+        </ui:WindowScope.Body>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:WindowScope>
+    </Sequence>
+    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="271.2,145.6" sap2010:WorkflowViewState.IdRef="Sequence_13">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Verify Birthdate" sap:VirtualizedContainerService.HintSize="433.6,942.4" sap2010:WorkflowViewState.IdRef="WindowScope_2" InformativeScreenshot="241e8122af8b5ed28c6f5118363bbd14" Selector="&lt;wnd app='cmd.exe' cls='ConsoleWindowClass' title='*' /&gt;">
+        <ui:WindowScope.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="241.6,795.2" sap2010:WorkflowViewState.IdRef="Sequence_12">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DelayMS="[Delay]" DisplayName="Select Account Details" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="TypeInto_17" Text="1[k(enter)]">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="782a6e84-5f81-4967-9c9b-139cc7857574" InformativeScreenshot="427704fe74c13829371eff340e22060c">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:TypeInto>
+              <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DelayMS="[Delay]" DisplayName="Enter Account Number" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="TypeInto_18" Text="[AccountNumber+ &quot;[k(enter)]&quot;]">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="3fd02f00-281b-4d69-a98c-87c4f70c777c" InformativeScreenshot="33933c501e5768f867c6c48f622a998d">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:TypeInto>
+              <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" ApiKey="D6L2mNqLFFqm0XijkUaRzSHUyQXRMQFQ7kTyAfVPPyS3OeePQr9XhUhab0wNIgpv" DisplayName="Get Birthdate" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="CVScope_2" Version="V1">
+                <p:CVScope.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="241.6,145.6" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <p:CvGetTextWithDescriptor Descriptor="[&quot;Target: AnyText (148,367,75,14)&quot; +&#xA;&quot;Anchor: Text 'DOB :' (72,368,28,12)&quot; +&#xA;&quot;Anchor: Text 'Name :' (72,353,33,12)&quot; +&#xA;&quot;Anchor: Text 'Aadress:' (70,384,56,12)&quot;]" DesignTimeScaleFactor="1.25" DisplayName="CV Get Text - Any Text" sap:VirtualizedContainerService.HintSize="400,52.8" sap2010:WorkflowViewState.IdRef="CvGetTextWithDescriptor_3" InformativeScreenshot="017af43992555e4f53f2bb2e95f428fc" RefreshBefore="True" Result="[ActualBirthDate]" Version="V1">
+                        <p:CvGetTextWithDescriptor.DesignTimeDescriptor>
+                          <uc:CvDescriptor InformativeScreenshot="017af43992555e4f53f2bb2e95f428fc">
+                            <uc:CvDescriptor.Anchors>
+                              <x:Array Type="uc:CvElementDescriptor">
+                                <uc:CvElementDescriptor DesignTimeArea="72, 368, 28, 12" ElementType="Text" Text="DOB :" />
+                                <uc:CvElementDescriptor DesignTimeArea="72, 353, 33, 12" ElementType="Text" Text="Name :" />
+                                <uc:CvElementDescriptor DesignTimeArea="70, 384, 56, 12" ElementType="Text" Text="Aadress:" />
+                              </x:Array>
+                            </uc:CvDescriptor.Anchors>
+                            <uc:CvDescriptor.Target>
+                              <uc:CvElementDescriptor DesignTimeArea="148, 367, 75, 14" ElementType="AnyText" />
+                            </uc:CvDescriptor.Target>
+                          </uc:CvDescriptor>
+                        </p:CvGetTextWithDescriptor.DesignTimeDescriptor>
+                      </p:CvGetTextWithDescriptor>
+                    </Sequence>
+                  </ActivityAction>
+                </p:CVScope.Body>
+                <p:CVScope.DesignTimeCache>
+                  <uc:CVCache InformativeScreenshot="8d6f69b5771ad6f79da586c945b44c1e" LogicalPosition="200, 192" OcrText="C:\_  C:\WINDOWS\system32\cmd.exe - X&#xA;z============================================================================:&#xA;XXX&#xA;XXXXX XXXXX UiBANK MAINFRAME SYSTEM v1.0&#xA;XXXXXXXXXXXXX&#xA;I I I I T DDM Development Systems&#xA;I I I I I January 2019&#xA;I I I I I&#xA;I I I I I Financial Services:&#xA;XXXXXXXXXXX - Insurance&#xA;XXXXXXXXXXXXX - Banking&#xA;U i B A N K - Markets&#xA;=============================================================================&#xA;ACCOUNT DETAILS&#xA;ACCOUNT NUMBER 24262820&#xA;Title: Mr&#xA;Name : Andrew Jones&#xA;DOB&#xA;: 10/10/1975&#xA;Aadress: 14 Hilltop Drive, Preston, Lancashire, PR5 9HG&#xA;Sex : Male&#xA;Status Married&#xA;Telephone 0123456789&#xA;Policy 13151719&#xA;1: Edit Details. 2 View Policy. 3. Return to previous menu&#xA;Selection v" Position="200, 192" ScaleFactor="1.25" ScreenshotGuid="76142ea2-9689-40cd-b40b-e0e8784d7b8c" ServerVersion="1">
+                    <uc:CVCache.CvUiElements>
+                      <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="8">
+                        <uc:CvElementInfo Category="Icon" Region="5, 7, 20, 16" />
+                        <uc:CvElementInfo Category="MaximizeButton" Region="801, 6, 16, 16" />
+                        <uc:CvElementInfo Category="CloseButton" Region="848, 6, 16, 16" />
+                        <uc:CvElementInfo Category="MinimizeButton" Region="756, 8, 16, 13" />
+                        <uc:CvElementInfo Category="ArrowButton" Region="864, 28, 17, 20" />
+                        <uc:CvElementInfo Category="ArrowButton" Region="863, 492, 18, 17" />
+                      </scg:List>
+                    </uc:CVCache.CvUiElements>
+                    <uc:CVCache.OcrTexts>
+                      <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="128">
+                        <uc:OcrTextInfo Region="7, 12, 14, 8" Text="C:\_" />
+                        <uc:OcrTextInfo Region="21, 8, 182, 13" Text=" C:\WINDOWS\system32\cmd.exe" />
+                        <uc:OcrTextInfo Region="757, 8, 12, 10" Text="-" />
+                        <uc:OcrTextInfo Region="848, 7, 16, 14" Text="X" />
+                        <uc:OcrTextInfo Region="11, 35, 552, 9" Text="z============================================================================:" />
+                        <uc:OcrTextInfo Region="77, 64, 24, 12" Text="XXX" />
+                        <uc:OcrTextInfo Region="49, 79, 38, 12" Text="XXXXX" />
+                        <uc:OcrTextInfo Region="92, 79, 39, 12" Text="XXXXX" />
+                        <uc:OcrTextInfo Region="287, 79, 44, 13" Text="UiBANK" />
+                        <uc:OcrTextInfo Region="336, 80, 69, 12" Text="MAINFRAME" />
+                        <uc:OcrTextInfo Region="410, 78, 46, 13" Text="SYSTEM" />
+                        <uc:OcrTextInfo Region="460, 79, 29, 13" Text="v1.0" />
+                        <uc:OcrTextInfo Region="42, 95, 96, 12" Text="XXXXXXXXXXXXX" />
+                        <uc:OcrTextInfo Region="57, 110, 8, 12" Text="I" />
+                        <uc:OcrTextInfo Region="72, 110, 8, 12" Text="I" />
+                        <uc:OcrTextInfo Region="86, 110, 8, 13" Text="I" />
+                        <uc:OcrTextInfo Region="99, 111, 8, 11" Text="I" />
+                        <uc:OcrTextInfo Region="113, 110, 8, 12" Text="T" />
+                        <uc:OcrTextInfo Region="287, 111, 24, 12" Text="DDM" />
+                        <uc:OcrTextInfo Region="315, 110, 83, 15" Text="Development" />
+                        <uc:OcrTextInfo Region="402, 111, 52, 13" Text="Systems" />
+                        <uc:OcrTextInfo Region="57, 127, 8, 12" Text="I" />
+                        <uc:OcrTextInfo Region="72, 126, 8, 12" Text="I" />
+                        <uc:OcrTextInfo Region="87, 127, 7, 12" Text="I" />
+                        <uc:OcrTextInfo Region="100, 125, 8, 13" Text="I" />
+                        <uc:OcrTextInfo Region="114, 126, 8, 13" Text="I" />
+                        <uc:OcrTextInfo Region="288, 127, 51, 14" Text="January" />
+                        <uc:OcrTextInfo Region="344, 127, 30, 12" Text="2019" />
+                        <uc:OcrTextInfo Region="57, 144, 8, 11" Text="I" />
+                        <uc:OcrTextInfo Region="72, 143, 8, 12" Text="I" />
+                        <uc:OcrTextInfo Region="86, 142, 8, 12" Text="I" />
+                        <uc:OcrTextInfo Region="100, 143, 8, 12" Text="I" />
+                        <uc:OcrTextInfo Region="113, 143, 8, 11" Text="I" />
+                        <uc:OcrTextInfo Region="57, 159, 8, 12" Text="I" />
+                        <uc:OcrTextInfo Region="72, 157, 8, 13" Text="I" />
+                        <uc:OcrTextInfo Region="86, 159, 8, 12" Text="I" />
+                        <uc:OcrTextInfo Region="100, 159, 8, 12" Text="I" />
+                        <uc:OcrTextInfo Region="114, 159, 8, 12" Text="I" />
+                        <uc:OcrTextInfo Region="288, 158, 64, 13" Text="Financial" />
+                        <uc:OcrTextInfo Region="358, 158, 64, 12" Text="Services:" />
+                        <uc:OcrTextInfo Region="48, 174, 82, 12" Text="XXXXXXXXXXX" />
+                        <uc:OcrTextInfo Region="286, 178, 8, 8" Text="-" />
+                        <uc:OcrTextInfo Region="300, 175, 67, 12" Text="Insurance" />
+                        <uc:OcrTextInfo Region="42, 191, 96, 12" Text="XXXXXXXXXXXXX" />
+                        <uc:OcrTextInfo Region="287, 194, 8, 8" Text="-" />
+                        <uc:OcrTextInfo Region="301, 191, 52, 13" Text="Banking" />
+                        <uc:OcrTextInfo Region="49, 206, 9, 12" Text="U" />
+                        <uc:OcrTextInfo Region="65, 208, 7, 12" Text="i" />
+                        <uc:OcrTextInfo Region="78, 207, 8, 12" Text="B" />
+                        <uc:OcrTextInfo Region="92, 207, 9, 12" Text="A" />
+                        <uc:OcrTextInfo Region="105, 206, 9, 12" Text="N" />
+                        <uc:OcrTextInfo Region="120, 207, 9, 12" Text="K" />
+                        <uc:OcrTextInfo Region="288, 211, 7, 7" Text="-" />
+                        <uc:OcrTextInfo Region="300, 206, 52, 13" Text="Markets" />
+                        <uc:OcrTextInfo Region="7, 243, 553, 8" Text="=============================================================================" />
+                        <uc:OcrTextInfo Region="36, 272, 52, 12" Text="ACCOUNT" />
+                        <uc:OcrTextInfo Region="92, 272, 51, 12" Text="DETAILS" />
+                        <uc:OcrTextInfo Region="35, 303, 53, 12" Text="ACCOUNT" />
+                        <uc:OcrTextInfo Region="93, 303, 48, 12" Text="NUMBER" />
+                        <uc:OcrTextInfo Region="149, 303, 58, 12" Text="24262820" />
+                        <uc:OcrTextInfo Region="70, 335, 42, 13" Text="Title:" />
+                        <uc:OcrTextInfo Region="148, 336, 16, 12" Text="Mr" />
+                        <uc:OcrTextInfo Region="72, 353, 30, 12" Text="Name" />
+                        <uc:OcrTextInfo Region="100, 353, 5, 10" Text=":" />
+                        <uc:OcrTextInfo Region="148, 352, 46, 12" Text="Andrew" />
+                        <uc:OcrTextInfo Region="200, 352, 36, 12" Text="Jones" />
+                        <uc:OcrTextInfo Region="72, 368, 24, 12" Text="DOB" />
+                        <uc:OcrTextInfo Region="94, 369, 6, 11" Text=":" />
+                        <uc:OcrTextInfo Region="148, 367, 75, 14" Text="10/10/1975" />
+                        <uc:OcrTextInfo Region="70, 384, 56, 12" Text="Aadress:" />
+                        <uc:OcrTextInfo Region="149, 383, 16, 12" Text="14" />
+                        <uc:OcrTextInfo Region="171, 384, 52, 16" Text="Hilltop" />
+                        <uc:OcrTextInfo Region="228, 385, 44, 15" Text="Drive," />
+                        <uc:OcrTextInfo Region="279, 384, 57, 14" Text="Preston," />
+                        <uc:OcrTextInfo Region="347, 384, 77, 15" Text="Lancashire," />
+                        <uc:OcrTextInfo Region="431, 384, 23, 13" Text="PR5" />
+                        <uc:OcrTextInfo Region="460, 384, 23, 12" Text="9HG" />
+                        <uc:OcrTextInfo Region="71, 400, 23, 12" Text="Sex" />
+                        <uc:OcrTextInfo Region="95, 401, 5, 10" Text=":" />
+                        <uc:OcrTextInfo Region="148, 400, 31, 12" Text="Male" />
+                        <uc:OcrTextInfo Region="70, 416, 48, 12" Text="Status" />
+                        <uc:OcrTextInfo Region="148, 415, 52, 12" Text="Married" />
+                        <uc:OcrTextInfo Region="70, 431, 72, 15" Text="Telephone" />
+                        <uc:OcrTextInfo Region="148, 431, 75, 12" Text="0123456789" />
+                        <uc:OcrTextInfo Region="72, 447, 48, 14" Text="Policy" />
+                        <uc:OcrTextInfo Region="150, 446, 58, 13" Text="13151719" />
+                        <uc:OcrTextInfo Region="2, 479, 11, 13" Text="1:" />
+                        <uc:OcrTextInfo Region="22, 478, 28, 12" Text="Edit" />
+                        <uc:OcrTextInfo Region="56, 478, 58, 13" Text="Details." />
+                        <uc:OcrTextInfo Region="126, 479, 14, 12" Text="2" />
+                        <uc:OcrTextInfo Region="148, 478, 32, 12" Text="View" />
+                        <uc:OcrTextInfo Region="184, 478, 50, 15" Text="Policy." />
+                        <uc:OcrTextInfo Region="249, 479, 14, 13" Text="3." />
+                        <uc:OcrTextInfo Region="272, 478, 44, 13" Text="Return" />
+                        <uc:OcrTextInfo Region="323, 480, 16, 12" Text="to" />
+                        <uc:OcrTextInfo Region="344, 478, 59, 14" Text="previous" />
+                        <uc:OcrTextInfo Region="409, 481, 30, 10" Text="menu" />
+                        <uc:OcrTextInfo Region="1, 494, 65, 12" Text="Selection" />
+                        <uc:OcrTextInfo Region="865, 495, 12, 9" Text="v" />
+                      </scg:List>
+                    </uc:CVCache.OcrTexts>
+                  </uc:CVCache>
+                </p:CVScope.DesignTimeCache>
+                <p:CVScope.OCREngine>
+                  <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd:Rectangle, x:String))">
+                    <ActivityFunc.Argument>
+                      <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                    </ActivityFunc.Argument>
+                    <p1:UiPathScreenOCR Endpoint="{x:Null}" Output="{x:Null}" Text="{x:Null}" ApiKey="D6L2mNqLFFqm0XijkUaRzSHUyQXRMQFQ7kTyAfVPPyS3OeePQr9XhUhab0wNIgpv" ComputeSkewAngle="False" DisplayName="UiPath Screen OCR" ExtractWords="True" sap:VirtualizedContainerService.HintSize="200,22.4" sap2010:WorkflowViewState.IdRef="UiPathScreenOCR_1" Image="[Image]" Language="auto" Profile="Screen" Scale="1" />
+                  </ActivityFunc>
+                </p:CVScope.OCREngine>
+                <p:CVScope.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="911edefe-3362-4030-ad01-c7fa11f9b095" InformativeScreenshot="f162f9b03b36945850604416f73d139e" WaitForReady="INTERACTIVE">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                  </ui:Target>
+                </p:CVScope.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </p:CVScope>
+              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                <ui:CommentOut.Body>
+                  <Sequence DisplayName="Ignored Activities" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                    <uta:VerifyExpressionWithOperator KeepScreenshots="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Birthdate" sap:VirtualizedContainerService.HintSize="433.6,62.4" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                      <uta:VerifyExpressionWithOperator.FirstExpression>
+                        <InArgument x:TypeArguments="x:String">[ActualBirthDate]</InArgument>
+                      </uta:VerifyExpressionWithOperator.FirstExpression>
+                      <uta:VerifyExpressionWithOperator.SecondExpression>
+                        <InArgument x:TypeArguments="x:String">[ActualBirthDate]</InArgument>
+                      </uta:VerifyExpressionWithOperator.SecondExpression>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uta:VerifyExpressionWithOperator>
+                  </Sequence>
+                </ui:CommentOut.Body>
+              </ui:CommentOut>
+              <uta:VerifyExpression KeepScreenshots="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[UpdatedBirthDate.ToString=ActualBirthDate.ToString]" sap:VirtualizedContainerService.HintSize="433.6,62.4" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+              <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DelayMS="[Delay]" DisplayName="Continue" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="TypeInto_19" Text="%[k(enter)]">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="b5b93346-7fb8-4684-ac72-c0c739d459db" InformativeScreenshot="427704fe74c13829371eff340e22060c">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:TypeInto>
+              <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DelayMS="[Delay]" DisplayName="Continue" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="TypeInto_20" Text="%[k(enter)]">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="de56a59c-f435-4c32-b61f-e82b56faf2c8" InformativeScreenshot="427704fe74c13829371eff340e22060c">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:TypeInto>
+              <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Close Application" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="TypeInto_21" Text="q[k(enter)]">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="6d6d1d2e-97b9-417f-94f3-bd0041155a62" InformativeScreenshot="427704fe74c13829371eff340e22060c">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:TypeInto>
+            </Sequence>
+          </ActivityAction>
+        </ui:WindowScope.Body>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:WindowScope>
+    </Sequence>
+  </Sequence>
+</Activity>
