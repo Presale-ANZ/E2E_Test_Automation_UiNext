@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html#/category/ST/product/HT-9998/cart" ContentHash="OFK-ZlE19E2LN6AFdWT5ZQ" DesignTimeRectangle="2475, 1356, 84, 40" ElementType="Button" FriendlyName="'Proceed'" FullSelectorArgument="&lt;webctrl id='container-cart---cartView--proceedButton' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---cartView--proceedButton' tag='BUTTON' type='' aaname='Proceed' check:text='Proceed' /&gt;" Reference="onZsbVircEKStCOfXcT3Hw/qlTonPE4TUWX3glw5R-2bw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="Proceed" TextMethod="AttributeText" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0DNDTl3UYGUe_Bt-iTxCinQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="29870165aab262eb6728f69d135d5fec.png" xmlns="">0ZOsQ6NnjiUaoU16J-UvViQ</imageRef>
+</TargetAnchorable>

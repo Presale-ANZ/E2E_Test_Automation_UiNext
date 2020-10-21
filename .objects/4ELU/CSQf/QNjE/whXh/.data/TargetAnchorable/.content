@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html#/categories" ContentHash="TeKijXIJ6kCy2bEFlRan9A" DesignTimeRectangle="9, 727, 839, 40" ElementType="ListItem" FriendlyName="'unchecked'" FullSelectorArgument="&lt;webctrl id='container-cart---homeView--categoryList' /&gt;&lt;webctrl ui5-tooltip='Open category Smartphones and Tablets' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---homeView--categoryList' /&gt;&lt;webctrl ui5-tooltip='Open category Smartphones and Tablets' tag='LI' type='' aaname='' check:text='unchecked' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="unchecked" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='LI' type='' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0qa6gzwGCiUiY-c1e1swQ8w</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="855214778d8f8515bcffe2bb02a3519d.png" xmlns="">0yhoZxULxskyB57U_Asqd4A</imageRef>
+</TargetAnchorable>

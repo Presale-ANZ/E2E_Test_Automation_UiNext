@@ -1,0 +1,94 @@
+{
+  "name": "Anthony Seagar E2E Automation UiNext",
+  "description": "Anthony Seagar E2E UiBank Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Faker.Data": "[1.0.8]",
+    "ShowDesktop.Activities": "[1.0.0]",
+    "UiPath.Excel.Activities": "[2.9.3]",
+    "UiPath.System.Activities": "[20.10.1-beta.1162306]",
+    "UiPath.Testing.Activities": "[1.2.4]",
+    "UiPath.UIAutomation.Activities": "[20.10.6]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.0.0",
+  "projectVersion": "0.0.2",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "1db147c8-6230-40ba-bf13-f601eab32163",
+        "fileName": "UiBank SAP\\SAP Fiori\\Purchase Item.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "01273850-a78f-44af-bd2c-26c94b68f891",
+        "fileName": "UiBank SAP\\SAP Fiori\\Purchase Item.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5eb5c836-29cc-4852-9beb-771b1f7ae2ea",
+        "fileName": "UiBank SAP\\SAP WinGUI\\Test Cases\\Create Data-Driven Order.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "3785932c-ac42-45ba-aaab-561d10009ce8",
+        "fileName": "UiBank SAP\\SAP WinGUI\\Test Cases\\Create Standard Order.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "dfcd99a0-2d1a-4ae7-93f9-50a72e97b9df",
+        "fileName": "UiBank SAP\\SAP Fiori\\Purchase Item.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "UiBank SAP\\SAP Fiori\\Purchase Item.xaml",
+      "uniqueId": "1db147c8-6230-40ba-bf13-f601eab32163",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "UiBank SAP\\SAP WinGUI\\Test Cases\\Create Data-Driven Order.xaml",
+      "uniqueId": "5eb5c836-29cc-4852-9beb-771b1f7ae2ea",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "UiBank SAP\\SAP WinGUI\\Test Cases\\Create Standard Order.xaml",
+      "uniqueId": "3785932c-ac42-45ba-aaab-561d10009ce8",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}

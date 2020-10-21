@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp BrowserType="Chrome" ContentHash="PhnrxuFX4kSJabmu0C13qA" Selector="&lt;html app='chrome.exe' title='Shopping Cart'/&gt;" Url="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html#/categories" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0agJnmrbOWE-nrKs5xWMKtw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="3f2c4b32886c3179be4d219cc40e3cab.png" xmlns="">04_3OnwWmuUaInlHnumhrjw</imageRef>
+</TargetApp>

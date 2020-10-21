@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html#/categories" ContentHash="ri8Z7VsS_0mXpBsxdn8Kxw" DesignTimeRectangle="29, 102, 142, 40" FriendlyName="'Product Catalog'" FullSelectorArgument="&lt;webctrl id='container-cart---homeView--page-title' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---homeView--page-title' tag='DIV' type='' aaname='' check:text='Product Catalog' /&gt;" Reference="onZsbVircEKStCOfXcT3Hw/U7mQ9NffwkaoxmK6mbWrDw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector, FuzzySelector" Text="Product Catalog" TextMethod="AttributeText" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0437G9Cm_Nk-F9bPitmb_dA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="cebac2a30b84a81e326d8e410e109467.png" xmlns="">0Sy3Xm2DhKEi6o78rVCTg9A</imageRef>
+</TargetAnchorable>

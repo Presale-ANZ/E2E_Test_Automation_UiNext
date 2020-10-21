@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html#/category/ST/product/HT-9998" ContentHash="chRcX6duGE-Q9uyw3U83hg" DesignTimeRectangle="2444, 1356, 115, 40" ElementType="Button" FriendlyName="'Add to Cart'" FullSelectorArgument="&lt;webctrl ui5-class='sap.m.Button' ui5-role='button' ui5p-text='Add to Cart' /&gt;" FuzzySelectorArgument="&lt;webctrl ui5-class='sap.m.Button' ui5-role='button' ui5p-text='Add to Cart' tag='BUTTON' type='' aaname='Add to Cart' check:text='Add to Cart' /&gt;" Reference="onZsbVircEKStCOfXcT3Hw/rtZZdSh3Hkyp-Z3MSY0gfA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="Add to Cart" TextMethod="AttributeText" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0jg-OJCRuD0OQqEQeMobHtA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="8bdadeb019ca98a33668d20aa9a086eb.png" xmlns="">0S0J0erWMBk-hPgGdytQAKw</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html#/category/ST" ContentHash="m7Rg6cFw30SLFjY8eJ8NIQ" DesignTimeRectangle="9, 1229, 824, 171" ElementType="ListItem" FriendlyName="'checked'" FullSelectorArgument="&lt;webctrl id='container-cart---category--productList' /&gt;&lt;webctrl ui5-tooltip='Open details for Smartphone Beta' /&gt;" FuzzySelectorArgument="&lt;webctrl id='container-cart---category--productList' /&gt;&lt;webctrl ui5-tooltip='Open details for Smartphone Beta' tag='LI' type='' aaname='' check:text='checked' /&gt;" Reference="onZsbVircEKStCOfXcT3Hw/r0Eqgnx3206nMI6bSstFow" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="checked" TextMethod="AttributeText" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">04SHgf55-IkSZcbYAW9jFpg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="1a3ba19d2668013ef61e7c710bab3812.png" xmlns="">0Npf2qVDd8kmgo4vMv_6ItQ</imageRef>
+</TargetAnchorable>

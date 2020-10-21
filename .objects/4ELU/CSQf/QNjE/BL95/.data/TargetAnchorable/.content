@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html#/category/ST/product/HT-9998" ContentHash="7Vq7cZML3kKDo5zsirzNSQ" DesignTimeRectangle="2529, 107, 20, 30" FriendlyName="'SAP.UI.CORE.ICON  __but…'" FullSelectorArgument="&lt;webctrl idx='2' ui5-class='sap.ui.core.Icon' ui5p-src='sap-icon://cart' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SPAN' ui5-class='sap.ui.core.Icon' ui5p-src='sap-icon://cart' type='' aaname='' /&gt;" Reference="onZsbVircEKStCOfXcT3Hw/bgdVp82K8Um-TGE27fSiJg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector, FuzzySelector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0u2nFn_ut3kidDV43FIIFqw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="7ab3e30e845961206b55f2e2f44b0a87.png" xmlns="">0Ef3UznbHuEih19bmbkx2-A</imageRef>
+</TargetAnchorable>

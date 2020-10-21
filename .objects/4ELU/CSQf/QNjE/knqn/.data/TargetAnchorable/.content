@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html#/category/ST/product/HT-9998" ContentHash="C13dF-qoTUuIT74ckadOsQ" DesignTimeRectangle="928, 215, 212, 32" FriendlyName="'Smartphone Beta'" FullSelectorArgument="&lt;webctrl idx='2' ui5-class='sap.m.Text' ui5p-text='Smartphone Beta' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SPAN' ui5-class='sap.m.Text' ui5p-text='Smartphone Beta' type='' aaname='' check:text='Smartphone Beta' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopping Cart' /&gt;" SearchSteps="Selector, FuzzySelector" Text="Smartphone Beta" TextMethod="AttributeText" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0lDyCFByd00mcDT7ewtM6dw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="6f2fc69a4108202efd2f35e87e1f77b0.png" xmlns="">0aqpIgn6d7UWZ_xuYug-DUA</imageRef>
+</TargetAnchorable>
