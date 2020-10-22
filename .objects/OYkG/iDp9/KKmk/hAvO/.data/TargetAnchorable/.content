@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="xcBcA_jd_Uu9dsRXm0a4NA" DesignTimeRectangle="440, 350, 300, 40" ElementType="InputBox" FriendlyName="'WindowsForms10.EDIT.app…'" FullSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelUser' /&gt;&lt;wnd ctrlname='txtUsername' /&gt;" FuzzySelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelUser' /&gt;&lt;wnd ctrlname='txtUsername' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="1">
+      <Target DesignTimeRectangle="318, 356, 110, 26" ElementType="Text" FriendlyName="'Username'" FullSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelUser' /&gt;&lt;wnd ctrlname='label1' /&gt;" FuzzySelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelUser' /&gt;&lt;wnd ctrlname='label1' check:text='Username' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="Username" TextMethod="AttributeText" TextSelector="&lt;wnd /&gt;">
+        <imageRef attrName="ImageBase64" xmlns="">1DGVPnG8rR0KSpOnuwpPxBg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0ZglM9MVE8UiYjpVvx8Q6-Q</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="9cb95b228b38cb7135f69d93d501e114.png" xmlns="">0aS9pcMSncEmcvf1hHjXo0w</imageRef>
+</TargetAnchorable>

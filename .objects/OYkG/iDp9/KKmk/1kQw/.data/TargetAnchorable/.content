@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="SHYVTleKVEmrgrNOPkr_Kw" DesignTimeRectangle="440, 582, 220, 46" ElementType="Button" FriendlyName="'&amp;Filter / Refresh'" FullSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelButtons' /&gt;&lt;wnd ctrlname='btnFilter' /&gt;" FuzzySelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelButtons' /&gt;&lt;wnd ctrlname='btnFilter' check:text='&amp;amp;Filter / Refresh' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="&amp;Filter / Refresh" TextMethod="AttributeText" TextSelector="&lt;wnd /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0MSEPaRlaCUWTUlA7xwkS9w</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="8820344444e99cd9cb3963462c5f0766.png" xmlns="">0rp-6sEQgd0CaTW1pvvookw</imageRef>
+</TargetAnchorable>

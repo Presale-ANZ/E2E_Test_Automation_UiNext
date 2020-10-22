@@ -1,0 +1,16 @@
+﻿{
+  "Id": "KKmkRSP7Hk-o1fObW059AA",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/KKmkRSP7Hk-o1fObW059AA",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/iDp9oRM8U0GyjYpHTgwBWA",
+  "Name": "UiBank Desktop Users",
+  "Description": "UiBank Desktop Users",
+  "Type": "Screen",
+  "Created": "2020-10-22T22:17:38.9174576Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-22T22:18:31.0999012Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

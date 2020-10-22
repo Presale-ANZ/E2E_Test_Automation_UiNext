@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="nB7C48bigkCex2GkFrAbDQ" DesignTimeRectangle="70, 198, 150, 46" ElementType="Button" FriendlyName="'OK'" FullSelectorArgument="&lt;wnd app='uibankadmin.exe' cls='#32770' idx='*' /&gt;&lt;wnd ctrlid='2' title='OK' /&gt;" FuzzySelectorArgument="&lt;wnd app='uibankadmin.exe' cls='#32770' /&gt;&lt;wnd ctrlid='2' title='OK' check:text='OK' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="OK" TextMethod="AttributeText" TextSelector="&lt;wnd /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">07xSXbPPT2UGVaFDpMpTSbw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="b3fd362b1ad1aff9e0ae1e67d293223e.png" xmlns="">0yxtPSUBaeUajrrfw0nDkOQ</imageRef>
+</TargetAnchorable>

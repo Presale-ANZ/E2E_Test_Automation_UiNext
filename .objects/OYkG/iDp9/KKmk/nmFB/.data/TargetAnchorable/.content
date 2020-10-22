@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="NjtV-YEmXkSEOdUdYG2ynw" DesignTimeRectangle="550, 510, 120, 34" ElementType="CheckBox" FriendlyName="'Female'" FullSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelUser' /&gt;&lt;wnd ctrlname='choiceFemale' /&gt;" FuzzySelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelUser' /&gt;&lt;wnd ctrlname='choiceFemale' check:fulltext='Female' /&gt;" SearchSteps="Selector, FuzzySelector" Text="Female" TextMethod="FullTextScrapping" TextSelector="&lt;wnd /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="1">
+      <Target DesignTimeRectangle="344, 512, 84, 26" ElementType="Text" FriendlyName="'Gender'" FullSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelUser' /&gt;&lt;wnd ctrlname='Gender' /&gt;" FuzzySelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelUser' /&gt;&lt;wnd ctrlname='Gender' check:text='Gender' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="Gender" TextMethod="AttributeText" TextSelector="&lt;wnd /&gt;">
+        <imageRef attrName="ImageBase64" xmlns="">0cdYptYsuXUGJ7hJvtA9fWw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="InformativeScreenshot" originalValue="e7c62a4163b6fa3e840c29daf9ce720f.png" xmlns="">0Qck-avusIkecG6o3Ysrmng</imageRef>
+</TargetAnchorable>

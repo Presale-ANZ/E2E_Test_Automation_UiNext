@@ -1,0 +1,14 @@
+﻿{
+  "Id": "symtcsOOnEWQ-ylYBAF7Mw",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/symtcsOOnEWQ-ylYBAF7Mw",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/KKmkRSP7Hk-o1fObW059AA",
+  "Name": "Admin Check box",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2020-10-22T22:34:47.9719642Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-22T22:34:47.9719642Z"
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Id": "W0tEExL5wES1NwCO6rQMkA",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/W0tEExL5wES1NwCO6rQMkA",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/KKmkRSP7Hk-o1fObW059AA",
+  "Name": "Users Sidebar Icon",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2020-10-22T22:31:44.18345Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-22T22:31:44.18345Z"
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="QAbGXObIdU-D_AjlkEaC8Q" DesignTimeRectangle="440, 402, 260, 42" ElementType="DropDown" FriendlyName="'Open Mr Mrs Miss Ms Doc'" FullSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelUser' /&gt;&lt;wnd ctrlname='txtTitle' /&gt;&lt;ctrl role='combo box' /&gt;" FuzzySelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelUser' /&gt;&lt;wnd ctrlname='txtTitle' /&gt;&lt;ctrl role='combo box' automationid='' /&gt;" SearchSteps="Selector, FuzzySelector" Text="Open&#xA;Mr&#xA;Mrs&#xA;Miss&#xA;Ms&#xA;Doc" TextMethod="FullTextScrapping" TextSelector="&lt;ctrl role='combo box' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="1">
+      <Target DesignTimeRectangle="374, 408, 54, 26" ElementType="Text" FriendlyName="'Title'" FullSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelUser' /&gt;&lt;wnd ctrlname='label7' /&gt;&lt;ctrl name='Title' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelUser' /&gt;&lt;wnd ctrlname='label7' /&gt;&lt;ctrl name='Title' role='text' automationid='' check:text='Title' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="Title" TextMethod="AttributeText" TextSelector="&lt;ctrl role='text' /&gt;">
+        <imageRef attrName="ImageBase64" xmlns="">0VXlYkD8AW02SJIw1nHPfog</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="InformativeScreenshot" originalValue="5051909b37ec50bbc602062a7f61c25d.png" xmlns="">0B7Ho17Idx0qvA2NKsOP_kg</imageRef>
+</TargetAnchorable>

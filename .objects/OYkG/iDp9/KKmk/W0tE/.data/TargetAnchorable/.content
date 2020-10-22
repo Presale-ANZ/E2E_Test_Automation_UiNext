@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="UJ_NKTRdwkm40xE-TTDcAg" DesignTimeRectangle="62, 342, 180, 136" FriendlyName="'Users'" FullSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='panel2' /&gt;&lt;wnd ctrlname='navList' /&gt;&lt;ctrl name='Name:' role='list' /&gt;&lt;ctrl name='Users' role='list item' /&gt;" FuzzySelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='panel2' /&gt;&lt;wnd ctrlname='navList' /&gt;&lt;ctrl name='Name:' role='list' /&gt;&lt;ctrl name='Users' role='list item' automationid='' check:text='Users' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="Users" TextMethod="AttributeText" TextSelector="&lt;ctrl role='list item' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0OkEzLZANx0GGUCo9HNSuag</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="8608fe7b58e57d3b30ff9d66c3494619.png" xmlns="">0jCtXnyW2pUqfyvjtKYLFjw</imageRef>
+</TargetAnchorable>

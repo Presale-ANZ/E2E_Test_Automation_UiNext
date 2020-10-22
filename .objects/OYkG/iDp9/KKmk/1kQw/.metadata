@@ -1,0 +1,14 @@
+﻿{
+  "Id": "1kQwlOcjRkClgq-cs459fw",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/1kQwlOcjRkClgq-cs459fw",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/KKmkRSP7Hk-o1fObW059AA",
+  "Name": "Filter Refresh",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2020-10-22T22:48:30.3698288Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-22T22:48:30.3698288Z"
+}

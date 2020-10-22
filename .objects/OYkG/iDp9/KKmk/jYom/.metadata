@@ -1,0 +1,14 @@
+﻿{
+  "Id": "jYomctNrW0yOpusNJ8uG_g",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/jYomctNrW0yOpusNJ8uG_g",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/KKmkRSP7Hk-o1fObW059AA",
+  "Name": "Email Address",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2020-10-22T22:32:13.2895254Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-22T22:32:13.2895254Z"
+}
