@@ -44,7 +44,7 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "1db147c8-6230-40ba-bf13-f601eab32163",
-        "fileName": "UiBank SAP\\SAP Fiori\\Purchase Item.xaml"
+        "fileName": "UiBank SAP\\SAP Fiori\\UiBank SAP Fiori - Purchase Item.xaml"
       },
       {
         "editingStatus": "InProgress",
@@ -54,12 +54,12 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "5eb5c836-29cc-4852-9beb-771b1f7ae2ea",
-        "fileName": "UiBank SAP\\SAP WinGUI\\Test Cases\\Create Data-Driven Order.xaml"
+        "fileName": "UiBank SAP\\SAP WinGUI\\Test Cases\\UiBank SAP WinGUI - Create Data Driven Order.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "3785932c-ac42-45ba-aaab-561d10009ce8",
-        "fileName": "UiBank SAP\\SAP WinGUI\\Test Cases\\Create Standard Order.xaml"
+        "fileName": "UiBank SAP\\SAP WinGUI\\Test Cases\\UiBank SAP WinGUI - Create Standard Order.xaml"
       },
       {
         "editingStatus": "InProgress",
@@ -69,42 +69,42 @@
       {
         "editingStatus": "InProgress",
         "testCaseId": "344109d1-e146-45fb-8cb8-aa362ac55c19",
-        "fileName": "UiBank UiAutomationNext\\Login Admin UiAutomationNext.xaml"
+        "fileName": "UiBank UiAutomationNext\\UiBank UiAutomationNext - Login Admin UiAutomationNext.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "51cf8b71-d89e-4442-82b4-d48468b0231b",
-        "fileName": "UiBank UiAutomationNext\\Login Admin V1 Selectors.xaml"
+        "fileName": "UiBank UiAutomationNext\\UiBank UiAutomationNext - Login Admin V1 Selectors.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "84bd8b6d-ec6c-4420-9fe9-ad70192d81bb",
-        "fileName": "UiBank UiAutomationNext\\Login Admin V2 Selectors.xaml"
+        "fileName": "UiBank UiAutomationNext\\UiBank UiAutomationNext - Login Admin V2 Selectors.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "f5649c67-bb4f-4646-8e3f-95501ee7b1fc",
-        "fileName": "UiBank UiAutomationNext\\Login Admin V1 UiAutomationNext.xaml"
+        "fileName": "UiBank UiAutomationNext\\UiBank UiAutomationNext - Login Admin V1 UiAutomationNext.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "9ca03e35-2c21-4eb4-bb6f-be4bc7773446",
-        "fileName": "UiBank UiAutomationNext\\Login Admin V2 UiAutomationNext.xaml"
+        "fileName": "UiBank UiAutomationNext\\UiBank UiAutomationNext - Login Admin V2 UiAutomationNext.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "3300d0c3-1468-4f10-9b24-4b858525a3a2",
-        "fileName": "UiBank API\\UiBank - API High Volume Loan.xaml"
+        "fileName": "UiBank API\\UiBank API - High Volume Loan.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "e3e12b25-ad77-4e8c-8f7a-8e74e377b823",
-        "fileName": "UiBank API\\UiBank - API Long Term Loan.xaml"
+        "fileName": "UiBank API\\UiBank API - Long Term Loan.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "f51b6104-8f9b-4483-98b6-2bdfec7d41e9",
-        "fileName": "UiBank API\\UiBank - API Lookup Loan.xaml"
+        "fileName": "UiBank API\\UiBank API - Lookup Loan.xaml"
       },
       {
         "editingStatus": "InProgress",
@@ -125,22 +125,22 @@
         "editingStatus": "InProgress",
         "testCaseId": "1b913972-fc7f-43f8-9aa7-9c9c701dd995",
         "dataVariationFilePath": ".variations\\data_Sheet1.json",
-        "fileName": "UiBank Web\\TestCases\\UiBank Web Data Driven Loan Request.xaml"
+        "fileName": "UiBank Web\\TestCases\\UiBank Web - Data Driven Loan Request.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "ada0eea3-f58c-4ca3-b216-40b362d94bbf",
-        "fileName": "UiBank Web\\TestCases\\UiBank Web Medium Loan Request.xaml"
+        "fileName": "UiBank Web\\TestCases\\UiBank Web - Medium Loan Request.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "d8aaa54f-5822-498e-8c2c-ba3357b40c2e",
-        "fileName": "UiBank Web\\TestCases\\UiBank Web Short Loan Request.xaml"
+        "fileName": "UiBank Web\\TestCases\\UiBank Web - Short Loan Request.xaml"
       },
       {
         "editingStatus": "InProgress",
         "testCaseId": "36f7b6e5-7715-4f17-a449-e6070e18e352",
-        "fileName": "UiBank Web\\TestCases\\UiBank Web Data Queue Driven Loan Request.xaml"
+        "fileName": "UiBank Web\\TestCases\\UiBank Web - Data Queue Driven Loan Request.xaml"
       },
       {
         "editingStatus": "Publishable",
@@ -168,61 +168,61 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "UiBank SAP\\SAP Fiori\\Purchase Item.xaml",
+      "filePath": "UiBank SAP\\SAP Fiori\\UiBank SAP Fiori - Purchase Item.xaml",
       "uniqueId": "1db147c8-6230-40ba-bf13-f601eab32163",
       "input": [],
       "output": []
     },
     {
-      "filePath": "UiBank SAP\\SAP WinGUI\\Test Cases\\Create Data-Driven Order.xaml",
+      "filePath": "UiBank SAP\\SAP WinGUI\\Test Cases\\UiBank SAP WinGUI - Create Data Driven Order.xaml",
       "uniqueId": "5eb5c836-29cc-4852-9beb-771b1f7ae2ea",
       "input": [],
       "output": []
     },
     {
-      "filePath": "UiBank SAP\\SAP WinGUI\\Test Cases\\Create Standard Order.xaml",
+      "filePath": "UiBank SAP\\SAP WinGUI\\Test Cases\\UiBank SAP WinGUI - Create Standard Order.xaml",
       "uniqueId": "3785932c-ac42-45ba-aaab-561d10009ce8",
       "input": [],
       "output": []
     },
     {
-      "filePath": "UiBank UiAutomationNext\\Login Admin V1 Selectors.xaml",
+      "filePath": "UiBank UiAutomationNext\\UiBank UiAutomationNext - Login Admin V1 Selectors.xaml",
       "uniqueId": "51cf8b71-d89e-4442-82b4-d48468b0231b",
       "input": [],
       "output": []
     },
     {
-      "filePath": "UiBank UiAutomationNext\\Login Admin V2 Selectors.xaml",
+      "filePath": "UiBank UiAutomationNext\\UiBank UiAutomationNext - Login Admin V2 Selectors.xaml",
       "uniqueId": "84bd8b6d-ec6c-4420-9fe9-ad70192d81bb",
       "input": [],
       "output": []
     },
     {
-      "filePath": "UiBank UiAutomationNext\\Login Admin V1 UiAutomationNext.xaml",
+      "filePath": "UiBank UiAutomationNext\\UiBank UiAutomationNext - Login Admin V1 UiAutomationNext.xaml",
       "uniqueId": "f5649c67-bb4f-4646-8e3f-95501ee7b1fc",
       "input": [],
       "output": []
     },
     {
-      "filePath": "UiBank UiAutomationNext\\Login Admin V2 UiAutomationNext.xaml",
+      "filePath": "UiBank UiAutomationNext\\UiBank UiAutomationNext - Login Admin V2 UiAutomationNext.xaml",
       "uniqueId": "9ca03e35-2c21-4eb4-bb6f-be4bc7773446",
       "input": [],
       "output": []
     },
     {
-      "filePath": "UiBank API\\UiBank - API High Volume Loan.xaml",
+      "filePath": "UiBank API\\UiBank API - High Volume Loan.xaml",
       "uniqueId": "3300d0c3-1468-4f10-9b24-4b858525a3a2",
       "input": [],
       "output": []
     },
     {
-      "filePath": "UiBank API\\UiBank - API Long Term Loan.xaml",
+      "filePath": "UiBank API\\UiBank API - Long Term Loan.xaml",
       "uniqueId": "e3e12b25-ad77-4e8c-8f7a-8e74e377b823",
       "input": [],
       "output": []
     },
     {
-      "filePath": "UiBank API\\UiBank - API Lookup Loan.xaml",
+      "filePath": "UiBank API\\UiBank API - Lookup Loan.xaml",
       "uniqueId": "f51b6104-8f9b-4483-98b6-2bdfec7d41e9",
       "input": [],
       "output": []
@@ -234,13 +234,13 @@
       "output": []
     },
     {
-      "filePath": "UiBank Web\\TestCases\\UiBank Web Medium Loan Request.xaml",
+      "filePath": "UiBank Web\\TestCases\\UiBank Web - Medium Loan Request.xaml",
       "uniqueId": "ada0eea3-f58c-4ca3-b216-40b362d94bbf",
       "input": [],
       "output": []
     },
     {
-      "filePath": "UiBank Web\\TestCases\\UiBank Web Short Loan Request.xaml",
+      "filePath": "UiBank Web\\TestCases\\UiBank Web - Short Loan Request.xaml",
       "uniqueId": "d8aaa54f-5822-498e-8c2c-ba3357b40c2e",
       "input": [],
       "output": []
