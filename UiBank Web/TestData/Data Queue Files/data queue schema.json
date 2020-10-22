@@ -1,0 +1,79 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "id": 1,
+            "first_name": "John",
+            "last_name": "doe",
+            "email": "john.doe@aol.com",
+            "gender": "male",
+            "ip_address": "148.38.201.83",
+            "skills": "UHV"
+        }
+    ],
+    "required": [
+        "amount",
+        "loanTerm",
+        "income",
+        "age",
+        "expectedRate"
+    ],
+    "properties": {
+        "amount": {
+            "$id": "#/properties/amount",
+            "type": "integer",
+            "title": "The Amount schema",
+            "description": "The Loan Amount.",
+            "default": 0,
+            "examples": [
+                5000
+            ]
+        },
+        "loanTerm": {
+            "$id": "#/properties/loanTerm",
+            "type": "integer",
+            "title": "The loanTerm schema",
+            "description": "Loan term.",
+            "default": "",
+            "examples": [
+                "3"
+            ]
+        },
+        "income": {
+            "$id": "#/properties/income",
+            "type": "integer",
+            "title": "The Income schema",
+            "description": "Income amount.",
+            "default": "",
+            "examples": [
+                "56000"
+            ]
+        },
+        "age": {
+            "$id": "#/properties/age",
+            "type": "integer",
+            "title": "The age schema",
+            "description": "Age.",
+            "default": "",
+            "examples": [
+                "33"
+            ]
+        },
+        "expectedRate": {
+            "$id": "#/properties/expectedRate",
+            "type": "integer",
+            "title": "The expectedRate schema",
+            "description": "Expected loan rate.",
+            "default": "",
+            "examples": [
+                "9"
+            ]
+        }        
+    },
+    "additionalProperties": true
+}

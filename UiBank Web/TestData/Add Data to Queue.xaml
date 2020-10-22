@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Test_Data" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1120.8,872.8" sap2010:WorkflowViewState.IdRef="Test_Data_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:utat="clr-namespace:UiPath.Testing.Activities.TestData;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Test_Data" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="981.6,796" sap2010:WorkflowViewState.IdRef="Test_Data_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:utat="clr-namespace:UiPath.Testing.Activities.TestData;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="27">
       <x:String>System.Activities</x:String>
@@ -54,7 +54,7 @@
       <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="612.8,668" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap:VirtualizedContainerService.HintSize="612.8,631.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="email" />
       <Variable x:TypeArguments="x:String" Name="first_name" />
@@ -62,13 +62,15 @@
       <Variable x:TypeArguments="x:String" Name="id" />
       <Variable x:TypeArguments="x:String" Name="ip_address" />
       <Variable x:TypeArguments="x:String" Name="skills" />
+      <Variable x:TypeArguments="x:Int32" Name="stepNo" />
+      <Variable x:TypeArguments="x:Int32" Name="NoOfRepetitions" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uta:AddTestDataQueueItem ContinueOnError="{x:Null}" DisplayName="Add Test Data Queue Item" sap:VirtualizedContainerService.HintSize="571.2,538.4" sap2010:WorkflowViewState.IdRef="AddTestDataQueueItem_1" ShowOutputArgumentCheckBoxes="True">
+    <uta:AddTestDataQueueItem ContinueOnError="True" DisplayName="Add Test Data Queue Item" sap:VirtualizedContainerService.HintSize="571.2,538.4" sap2010:WorkflowViewState.IdRef="AddTestDataQueueItem_1" ShowOutputArgumentCheckBoxes="True">
       <uta:AddTestDataQueueItem.ArgumentsBridgeActivityCollection>
         <scg:List x:TypeArguments="ActivityFunc(x:Object)" Capacity="0" />
       </uta:AddTestDataQueueItem.ArgumentsBridgeActivityCollection>
@@ -131,7 +133,7 @@
             <utat:RandomValue Value="{x:Null}" DisplayName="gender" sap:VirtualizedContainerService.HintSize="384,80.8" sap2010:WorkflowViewState.IdRef="RandomValue_1">
               <utat:RandomValue.FilePath>
                 <InArgument x:TypeArguments="x:String">
-                  <Literal x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="Literal`1_4">gender.csv</Literal>
+                  <Literal x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="Literal`1_1">UiBank Web\TestData\gender.csv</Literal>
                 </InArgument>
               </utat:RandomValue.FilePath>
             </utat:RandomValue>
@@ -168,7 +170,7 @@
             <utat:RandomValue Value="{x:Null}" DisplayName="ip_address" sap:VirtualizedContainerService.HintSize="384,80.8" sap2010:WorkflowViewState.IdRef="RandomValue_2">
               <utat:RandomValue.FilePath>
                 <InArgument x:TypeArguments="x:String">
-                  <Literal x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="Literal`1_10">ip.csv</Literal>
+                  <Literal x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="Literal`1_2">UiBank Web\TestData\ip.csv</Literal>
                 </InArgument>
               </utat:RandomValue.FilePath>
             </utat:RandomValue>
@@ -181,7 +183,13 @@
         </uta:ActivityItemContainer>
         <uta:ActivityItemContainer PropertiesSelectedIndex="0">
           <uta:ActivityItemContainer.Activity>
-            <utat:RandomValue Value="{x:Null}" DisplayName="skills" FilePath="skills.csv" sap:VirtualizedContainerService.HintSize="384,80.8" sap2010:WorkflowViewState.IdRef="RandomValue_3" />
+            <utat:RandomValue Value="{x:Null}" DisplayName="skills" sap:VirtualizedContainerService.HintSize="384,80.8" sap2010:WorkflowViewState.IdRef="RandomValue_3">
+              <utat:RandomValue.FilePath>
+                <InArgument x:TypeArguments="x:String">
+                  <Literal x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="Literal`1_3">UiBank Web\TestData\skills.csv</Literal>
+                </InArgument>
+              </utat:RandomValue.FilePath>
+            </utat:RandomValue>
           </uta:ActivityItemContainer.Activity>
           <uta:ActivityItemContainer.ArgumentsBridgeActivity>
             <ActivityFunc x:TypeArguments="x:Object">

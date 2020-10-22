@@ -125,17 +125,22 @@
         "editingStatus": "InProgress",
         "testCaseId": "1b913972-fc7f-43f8-9aa7-9c9c701dd995",
         "dataVariationFilePath": ".variations\\data_Sheet1.json",
-        "fileName": "UiBank Web\\TestCases\\Data Driven Ui Rate Test.xaml"
+        "fileName": "UiBank Web\\TestCases\\UiBank Web Data Driven Loan Request.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "ada0eea3-f58c-4ca3-b216-40b362d94bbf",
-        "fileName": "UiBank Web\\TestCases\\Medium Loan Request Test.xaml"
+        "fileName": "UiBank Web\\TestCases\\UiBank Web Medium Loan Request.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "d8aaa54f-5822-498e-8c2c-ba3357b40c2e",
-        "fileName": "UiBank Web\\TestCases\\Short Loan Request Test.xaml"
+        "fileName": "UiBank Web\\TestCases\\UiBank Web Short Loan Request.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "36f7b6e5-7715-4f17-a449-e6070e18e352",
+        "fileName": "UiBank Web\\TestCases\\UiBank Web Data Queue Driven Loan Request.xaml"
       }
     ],
     "modernBehavior": true
@@ -151,62 +156,7 @@
     {
       "filePath": "UiBank SAP\\SAP WinGUI\\Test Cases\\Create Data-Driven Order.xaml",
       "uniqueId": "5eb5c836-29cc-4852-9beb-771b1f7ae2ea",
-      "input": [
-        {
-          "name": "DistributionChannel",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "Materials",
-          "type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "OrderType",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "Plant",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "SalesOrganisation",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "ShiptoParty",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "SoldtoParty",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "ExpectedNetvalue",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "items",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        }
-      ],
+      "input": [],
       "output": []
     },
     {
@@ -260,93 +210,19 @@
     {
       "filePath": "UiBank Mainframe\\UiBank Mainframe - Modify Birthdate No Change.xaml",
       "uniqueId": "fc09400c-f89d-4432-8f6e-b344fe9d553a",
-      "input": [
-        {
-          "name": "AccountNumber",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "LastName",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": false
-        },
-        {
-          "name": "Address",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "Delay",
-          "type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "UpdatedBirthDate",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "ActualBirthDate",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "FolderName",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        }
-      ],
+      "input": [],
       "output": []
     },
     {
-      "filePath": "UiBank Web\\TestCases\\Medium Loan Request Test.xaml",
+      "filePath": "UiBank Web\\TestCases\\UiBank Web Medium Loan Request.xaml",
       "uniqueId": "ada0eea3-f58c-4ca3-b216-40b362d94bbf",
       "input": [],
       "output": []
     },
     {
-      "filePath": "UiBank Web\\TestCases\\Short Loan Request Test.xaml",
+      "filePath": "UiBank Web\\TestCases\\UiBank Web Short Loan Request.xaml",
       "uniqueId": "d8aaa54f-5822-498e-8c2c-ba3357b40c2e",
-      "input": [
-        {
-          "name": "Amount",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "Term",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "Income",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "Age",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        },
-        {
-          "name": "Expected_Rate",
-          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-          "required": false,
-          "hasDefault": true
-        }
-      ],
+      "input": [],
       "output": []
     }
   ],
