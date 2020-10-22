@@ -1,0 +1,13 @@
+﻿{
+  "Id": "h5aD-SGYuEW2fd0RhyA79A",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/h5aD-SGYuEW2fd0RhyA79A",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/HzXAhPrwSkGFcg_6-OIVww",
+  "Name": "Retrieve Loan-Button",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2020-10-22T00:12:35.2575919Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-22T00:12:35.2575919Z"
+}

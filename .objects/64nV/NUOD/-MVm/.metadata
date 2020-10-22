@@ -1,0 +1,15 @@
+﻿{
+  "Id": "-MVmHFl9REWXhAAKPUl1uQ",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/-MVmHFl9REWXhAAKPUl1uQ",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/NUODBQ6mMU6ID-7OXdXXwg",
+  "Name": "UiBank Loans",
+  "Type": "Screen",
+  "Created": "2020-10-22T00:06:53.4630499Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-22T00:07:06.0453856Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

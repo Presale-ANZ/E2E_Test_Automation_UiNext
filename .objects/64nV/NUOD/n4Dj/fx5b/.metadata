@@ -1,0 +1,16 @@
+﻿{
+  "Id": "fx5b45muvkuBicAcYBihXQ",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/fx5b45muvkuBicAcYBihXQ",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/n4Djr7CILEeNM_oBFyXHbw",
+  "Name": "Loan Rate",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2020-10-22T03:14:49.5240444Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-22T03:16:22.8676737Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

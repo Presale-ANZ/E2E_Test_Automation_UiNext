@@ -1,0 +1,13 @@
+﻿{
+  "Id": "GJPqbF1CC06kUDnuO1iXdw",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/GJPqbF1CC06kUDnuO1iXdw",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/8Daelqj1b0qOkFtcUrdIWA",
+  "Name": "Submit Loan Application",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2020-10-22T00:11:10.3719393Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-22T00:11:10.3719393Z"
+}

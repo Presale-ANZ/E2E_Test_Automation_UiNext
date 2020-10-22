@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://uibank.uipath.com/loans/result/5f90f824642af1002decf834/7/true" ContentHash="xV8ThaqnQkOXm1vzmmcP2g" DesignTimeRectangle="610, 628, 1338, 36" FriendlyName="'5f90f824642af1002decf834'" FullSelectorArgument="&lt;webctrl id='loanID' tag='H4' /&gt;" FuzzySelectorArgument="&lt;webctrl id='loanID' tag='H4' type='' aaname=' * ' check:text='*' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank' /&gt;" SearchSteps="Selector, FuzzySelector" Text="5f90f824642af1002decf834" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='H4' type='' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="610, 588, 1338, 30" FriendlyName="'Your new loan ID is:'" FullSelectorArgument="&lt;webctrl idx='2' tag='H5' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='H5' aaname=' Your new loan ID is: ' check:text='Your new loan ID is:' /&gt;" SearchSteps="FuzzySelector, Image" Text="Your new loan ID is:" TextMethod="AttributeText" TextSelector="&lt;webctrl type='' tag='H5' /&gt;">
+        <imageRef attrName="ImageBase64" xmlns="">143yEakeCcUqd12GEQbCg-g</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0uEFGq3yt30WW-0HJPNJC0w</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="a051d30726a7e7fcabc9faa04e067295.png" xmlns="">01vVwYwjHLESMU5kSVweXOg</imageRef>
+</TargetAnchorable>

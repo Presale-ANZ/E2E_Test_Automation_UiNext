@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://uibank.uipath.com/loans/apply" ContentHash="vjZfV3Ohlk284gS-cZ8Tzw" DesignTimeRectangle="459, 883, 1000, 48" ElementType="InputBox" FriendlyName="'INPUT  income'" FullSelectorArgument="&lt;webctrl id='income' tag='INPUT' type='number' /&gt;" FuzzySelectorArgument="&lt;webctrl id='income' tag='INPUT' type='number' aaname='Current Yearly Income (Before Taxes)' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="459, 843, 373, 30" ElementType="Text" FriendlyName="'Current Yearly'" FullSelectorArgument="&lt;webctrl aaname='Current Yearly Income (Before Taxes)' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Current Yearly Income (Before Taxes)' tag='LABEL' type='' check:text='Current Yearly Income (Before Taxes)' /&gt;" SearchSteps="FuzzySelector, Image" Text="Current Yearly Income (Before Taxes)" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='LABEL' type='' /&gt;">
+        <imageRef attrName="ImageBase64" xmlns="">9Liy3h7__WkSfLGHgSgG6og</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">08PFDPfVjH0yZQQsn_WeDOw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="67c2d90853733ed83b71e9cee26886bf.png" xmlns="">0EyvKv1Q3hE6pnZZJDrmE1Q</imageRef>
+</TargetAnchorable>

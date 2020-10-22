@@ -1,0 +1,15 @@
+﻿{
+  "Id": "n4Djr7CILEeNM_oBFyXHbw",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/n4Djr7CILEeNM_oBFyXHbw",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/NUODBQ6mMU6ID-7OXdXXwg",
+  "Name": "UiBank Loan Result",
+  "Type": "Screen",
+  "Created": "2020-10-22T03:11:49.7041413Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-22T03:14:49.4400771Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

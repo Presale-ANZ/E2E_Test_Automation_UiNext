@@ -1,0 +1,15 @@
+﻿{
+  "Id": "HzXAhPrwSkGFcg_6-OIVww",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/HzXAhPrwSkGFcg_6-OIVww",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/NUODBQ6mMU6ID-7OXdXXwg",
+  "Name": "UiPath Loans lookup",
+  "Type": "Screen",
+  "Created": "2020-10-22T00:11:59.9931643Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-22T00:12:12.6508211Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

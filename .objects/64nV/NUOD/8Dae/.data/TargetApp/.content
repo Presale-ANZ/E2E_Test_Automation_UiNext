@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp BrowserType="Chrome" ContentHash="Pz9amWDbx0iJ_jjBE6OpZg" Selector="&lt;html app='chrome.exe' title='UiBank'/&gt;" Url="https://uibank.uipath.com/loans/apply" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0dRkdnx6l40K54JscOHSdkg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="e93e26ac73c0b42390f3059faf3b7b05.png" xmlns="">0-a8vX3XQE0CumIaB6U-zdw</imageRef>
+</TargetApp>

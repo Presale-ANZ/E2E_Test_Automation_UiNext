@@ -1,0 +1,13 @@
+﻿{
+  "Id": "tt2NRAyiK0yswHPb-3h_7w",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/tt2NRAyiK0yswHPb-3h_7w",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/8Daelqj1b0qOkFtcUrdIWA",
+  "Name": "Loan Amount Requested",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2020-10-22T00:11:09.4754134Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-22T00:11:09.4754134Z"
+}

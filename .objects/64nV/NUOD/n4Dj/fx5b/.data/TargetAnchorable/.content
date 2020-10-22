@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://uibank.uipath.com/loans/result/5f90f824642af1002decf834/7/true" ContentHash="gZ3cbg0Y-UiRUieUiXXURg" DesignTimeRectangle="1225, 538, 17, 43" ElementType="Text" FriendlyName="'7'" FullSelectorArgument="&lt;webctrl id='rateValue' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='rateValue' tag='SPAN' type='' aaname='*' check:text='*' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank' /&gt;" SearchSteps="Selector, FuzzySelector" Text="7" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='SPAN' type='' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="610, 502, 1338, 30" FriendlyName="'With a'" FullSelectorArgument="&lt;webctrl idx='1' tag='H5' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='H5' aaname=' With a fantastic rate of: ' check:text='With a fantastic rate of:' /&gt;" SearchSteps="FuzzySelector, Image" Text="With a fantastic rate of:" TextMethod="AttributeText" TextSelector="&lt;webctrl type='' tag='H5' /&gt;">
+        <imageRef attrName="ImageBase64" xmlns="">1Ehsf4tEkr06yHB2Mu6-xKg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0Multn5fpNE-nfTuAEBr4BQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="eaccae6b7a8b8921b04f58fe899626f9.png" xmlns="">0-6PTar1PlEuhihXc-kdjiw</imageRef>
+</TargetAnchorable>

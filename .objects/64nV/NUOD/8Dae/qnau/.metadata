@@ -1,0 +1,13 @@
+﻿{
+  "Id": "qnauVht7h0OjQKpHptvgBg",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/qnauVht7h0OjQKpHptvgBg",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/8Daelqj1b0qOkFtcUrdIWA",
+  "Name": "Email Address",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2020-10-22T00:11:09.2628259Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-22T00:11:09.2628259Z"
+}

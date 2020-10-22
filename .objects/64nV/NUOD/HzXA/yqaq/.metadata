@@ -1,0 +1,13 @@
+﻿{
+  "Id": "yqaqI8YoQUGyHvjKQex5CQ",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/yqaqI8YoQUGyHvjKQex5CQ",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/HzXAhPrwSkGFcg_6-OIVww",
+  "Name": "Loan ID-Field",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2020-10-22T00:12:22.4616163Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-22T00:12:22.4616163Z"
+}

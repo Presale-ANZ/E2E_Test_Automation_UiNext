@@ -1,0 +1,13 @@
+﻿{
+  "Id": "_DfglzStRkGfLxJMNE5odA",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/_DfglzStRkGfLxJMNE5odA",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/n4Djr7CILEeNM_oBFyXHbw",
+  "Name": "Apply For Another Loan",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2020-10-22T03:14:49.8329868Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-22T03:14:49.8329868Z"
+}

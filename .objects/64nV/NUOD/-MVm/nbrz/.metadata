@@ -1,0 +1,13 @@
+﻿{
+  "Id": "nbrz5hG-iUKBwKCgegE1kw",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/nbrz5hG-iUKBwKCgegE1kw",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/-MVmHFl9REWXhAAKPUl1uQ",
+  "Name": "Already Have A Loan-Button",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2020-10-22T00:07:14.6604054Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-22T00:07:14.6604054Z"
+}

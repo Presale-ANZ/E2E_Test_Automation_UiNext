@@ -1,0 +1,13 @@
+﻿{
+  "Id": "vDMagB14x0atZujpie7C0A",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/vDMagB14x0atZujpie7C0A",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/8Daelqj1b0qOkFtcUrdIWA",
+  "Name": "Current Yearly",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2020-10-22T00:11:09.9355798Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-22T00:11:09.9355798Z"
+}
