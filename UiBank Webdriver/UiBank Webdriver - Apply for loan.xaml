@@ -1,4 +1,12 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="UiBank_Webdriver___Apply_for_loan" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="736.8,852" sap2010:WorkflowViewState.IdRef="UiBank_Webdriver___Apply_for_loan_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="UiBank_Webdriver___Apply_for_loan" this:UiBank_Webdriver___Apply_for_loan.BrowserType="[BrowserType.Firefox]" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="BrowserType" Type="InArgument(ui:BrowserType)" />
+  </x:Members>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>946.4,954.4</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>UiBank_Webdriver___Apply_for_loan_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="42">
       <x:String>System.Activities</x:String>
@@ -58,7 +66,7 @@
       <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="UiBank_Webdriver___Apply_for_loan" sap:VirtualizedContainerService.HintSize="616.8,687.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="UiBank_Webdriver___Apply_for_loan" sap:VirtualizedContainerService.HintSize="616.8,789.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="quotedRate" />
       <Variable x:TypeArguments="x:String" Name="expectedRate" />
@@ -83,12 +91,13 @@
         </Assign.Value>
       </Assign>
     </Sequence>
-    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="575.2,206.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="420,308.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
+      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="378.4,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[&quot;Test browser: &quot; + BrowserType.ToString]" />
       <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke UiBank_ApplyForLoan workflow" sap:VirtualizedContainerService.HintSize="378.4,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="UiBank Webdriver/Libraries/UiBank_ApplyForLoan.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <InArgument x:TypeArguments="x:String" x:Key="amount">
@@ -106,6 +115,9 @@
           <OutArgument x:TypeArguments="x:String" x:Key="qoutedRate">
             <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="quotedRate" />
           </OutArgument>
+          <InArgument x:TypeArguments="ui:BrowserType" x:Key="BrowserType">
+            <mva:VisualBasicValue x:TypeArguments="ui:BrowserType" ExpressionText="BrowserType" />
+          </InArgument>
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
     </Sequence>
