@@ -1,3 +1,25 @@
 {
-  "issueKeyTestcaseValues": {}
+  "issueKeyTestcaseValues": {
+    "d8aaa54f-5822-498e-8c2c-ba3357b40c2e": "7d5cdc8c-ee3e-4305-6a95-08d876b185f4",
+    "ada0eea3-f58c-4ca3-b216-40b362d94bbf": "19098069-dea9-429d-6a94-08d876b185f4",
+    "9ca03e35-2c21-4eb4-bb6f-be4bc7773446": "3318c438-de5b-49ed-6a93-08d876b185f4",
+    "f5649c67-bb4f-4646-8e3f-95501ee7b1fc": "18d1302e-c8fe-40f4-6a92-08d876b185f4",
+    "51cf8b71-d89e-4442-82b4-d48468b0231b": "1fd8abba-714b-4fc7-6a91-08d876b185f4",
+    "3785932c-ac42-45ba-aaab-561d10009ce8": "c2326c4a-296d-4bfb-6a8f-08d876b185f4",
+    "5eb5c836-29cc-4852-9beb-771b1f7ae2ea": "56582b12-b5f4-4961-6a90-08d876b185f4",
+    "1db147c8-6230-40ba-bf13-f601eab32163": "9b1bfc16-b1fc-48d5-6a8e-08d876b185f4",
+    "fc09400c-f89d-4432-8f6e-b344fe9d553a": "a6b9a2fc-322f-479c-6a8d-08d876b185f4",
+    "375395a6-201e-4ac9-a7aa-781d81bc79e3": "aacb11d8-d1e0-441c-6a89-08d876b185f4",
+    "33147927-628e-4b47-8a58-211758e2a1f0": "2d112747-a9c9-417b-6a88-08d876b185f4",
+    "ba6aa0ae-2f90-477a-8711-05d3ee2e7352": "e8c712eb-675e-4b6c-6a87-08d876b185f4",
+    "f51b6104-8f9b-4483-98b6-2bdfec7d41e9": "8977b8e5-bf08-4a13-6a8c-08d876b185f4",
+    "e3e12b25-ad77-4e8c-8f7a-8e74e377b823": "e691470e-75c5-4098-6a8b-08d876b185f4",
+    "3300d0c3-1468-4f10-9b24-4b858525a3a2": "7cb57155-253d-463d-6a8a-08d876b185f4"
+  },
+  "testManagerBasePath": "https://tm-demo.uipath.com/",
+  "defaultProject": {
+    "id": "9f22ae19-2c9a-4925-8446-08d806000136",
+    "name": "Anthony Seagar",
+    "key": "ANSEA"
+  }
 }
