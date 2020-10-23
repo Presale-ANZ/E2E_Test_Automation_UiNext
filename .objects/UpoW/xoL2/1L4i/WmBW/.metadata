@@ -1,0 +1,14 @@
+﻿{
+  "Id": "WmBWOvFysk-L-zcxmKUD4w",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/WmBWOvFysk-L-zcxmKUD4w",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/1L4i0G4EjEe03XScCP4erw",
+  "Name": "Login menu",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2020-10-23T00:46:59.243448Z",
+  "CreatedBy": [
+    "UiPath.MobileAutomation, Version=20.12.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-23T00:46:59.243448Z"
+}

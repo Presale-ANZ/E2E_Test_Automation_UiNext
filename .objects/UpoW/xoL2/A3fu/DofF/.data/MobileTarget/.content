@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Target Accuracy="0.8" ContentHash="JS_2OSqClkmbcGRF5tqlww" FriendlyName="Set Text " FullSelector="&lt;mbl android:className='android.widget.EditText' accessibilityId='password' /&gt;&#xA;" FuzzyAccuracy="0.5" Occurence="0" xmlns="clr-namespace:UiPath.MobileAutomation.Models;assembly=UiPath.MobileAutomation">
+  <imageRef attrName="ImageBase64" xmlns="">0QC0MmIle3EeBIpyzsTFPqw</imageRef>
+</Target>

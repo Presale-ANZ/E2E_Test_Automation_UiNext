@@ -1,0 +1,17 @@
+﻿{
+  "Id": "DofFEuvo90e-f4m2phk7VQ",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/DofFEuvo90e-f4m2phk7VQ",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/A3fuOw82e0iS5YhOuqyUVw",
+  "Name": "Password",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2020-10-23T00:38:07.9076965Z",
+  "CreatedBy": [
+    "UiPath.MobileAutomation, Version=20.12.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-23T00:42:49.0126805Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Id": "a3xRA9PWK0Sjiwxti8Jcgg",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/a3xRA9PWK0Sjiwxti8Jcgg",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/1L4i0G4EjEe03XScCP4erw",
+  "Name": "Login Button",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2020-10-23T00:57:51.4235473Z",
+  "CreatedBy": [
+    "UiPath.MobileAutomation, Version=20.12.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-23T00:57:51.4235473Z"
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Target Accuracy="0.8" ContentHash="NWy5GSGGVEGQW3Gm-C-1jQ" DesignTimeRectangle="72, 479, 270, 45" FriendlyName="Tap" FullSelector="&lt;mbl ios:type='XCUIElementTypeButton' id='OK' /&gt;&#xD;&#xA;" FuzzyAccuracy="0.5" FuzzySelector="&lt;mbl ios:type='XCUIElementTypeButton' text='OK' check:text='OK' /&gt;&#xD;&#xA;" Occurence="0" SearchSteps="Selector, FuzzySelector, Image" Text="OK" xmlns="clr-namespace:UiPath.MobileAutomation.Models;assembly=UiPath.MobileAutomation">
+  <imageRef attrName="ImageBase64" xmlns="">0a-q-tcPvH0WJkQcVatUChw</imageRef>
+</Target>

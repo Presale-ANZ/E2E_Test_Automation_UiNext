@@ -1,0 +1,15 @@
+﻿{
+  "Id": "UpoWmX3EXUaGnZ1BAnNN5w",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/UpoWmX3EXUaGnZ1BAnNN5w",
+  "Name": "TheApp",
+  "Description": "The App",
+  "Type": "App",
+  "Created": "2020-10-23T00:35:12.5515409Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-23T00:36:17.5271734Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Target Accuracy="0.8" ContentHash="N7kL6P46NEeV93HulByG9w" FriendlyName="Tap " FullSelector="&lt;mbl ios:type='XCUIElementTypeOther' id='loginBtn' idx='1' /&gt;&#xA;&lt;mbl ios:type='XCUIElementTypeOther' id='loginBtn' /&gt;&#xA;" FuzzyAccuracy="0.5" Occurence="0" xmlns="clr-namespace:UiPath.MobileAutomation.Models;assembly=UiPath.MobileAutomation">
+  <imageRef attrName="ImageBase64" xmlns="">0GXPESsI2YUKNNWim0m6Mwg</imageRef>
+</Target>

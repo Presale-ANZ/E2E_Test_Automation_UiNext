@@ -7,6 +7,7 @@
     "ShowDesktop.Activities": "[1.0.0]",
     "UiBank.Postman.Collections": "[1.0.4]",
     "UiPath.Excel.Activities": "[2.9.3]",
+    "UiPath.MobileAutomation.Activities": "[20.12.0-alpha.1225479]",
     "UiPath.System.Activities": "[20.10.1-beta.1162306]",
     "UiPath.Testing.Activities": "[1.3.0-alpha.1202193]",
     "UiPath.UIAutomation.Activities": "[20.10.6]",
@@ -161,6 +162,16 @@
         "editingStatus": "Publishable",
         "testCaseId": "375395a6-201e-4ac9-a7aa-781d81bc79e3",
         "fileName": "UiBank Desktop\\UiBank Desktop - Verify Overdraft Rate.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2c532847-68b4-4f0a-92eb-39674be110cf",
+        "fileName": "Mobile Automation\\Mobile Automation - Android.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "cd743074-1d72-49dd-85ae-0f1ec286d8cd",
+        "fileName": "Mobile Automation\\Mobile Automation - IOS.xaml"
       }
     ],
     "modernBehavior": true

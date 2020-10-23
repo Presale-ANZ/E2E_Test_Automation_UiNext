@@ -1,0 +1,16 @@
+﻿{
+  "Id": "A3fuOw82e0iS5YhOuqyUVw",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/A3fuOw82e0iS5YhOuqyUVw",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/xoL2FVVg3U-P5sF50jijcA",
+  "Name": "Android TheApp Screen",
+  "Description": "Andoid TheApp Screen",
+  "Type": "Screen",
+  "Created": "2020-10-23T00:37:28.3859102Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-23T00:46:08.871199Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

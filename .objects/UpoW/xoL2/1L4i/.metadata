@@ -1,0 +1,13 @@
+﻿{
+  "Id": "1L4i0G4EjEe03XScCP4erw",
+  "Reference": "ib0ysiSxwkqS-hr6JqXlzg/1L4i0G4EjEe03XScCP4erw",
+  "ParentRef": "ib0ysiSxwkqS-hr6JqXlzg/xoL2FVVg3U-P5sF50jijcA",
+  "Name": "IOS TheApp Screen",
+  "Description": "IOS TheApp Screen",
+  "Type": "Screen",
+  "Created": "2020-10-23T00:46:40.360634Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-23T00:46:40.360634Z"
+}

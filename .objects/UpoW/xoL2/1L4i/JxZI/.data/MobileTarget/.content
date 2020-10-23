@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Target Accuracy="0.8" ContentHash="jNZNdtrcpEidO_EGbXI_7A" FriendlyName="Set Text " FullSelector="&lt;mbl ios:type='XCUIElementTypeOther' id='username' idx='1' /&gt;&#xA;&lt;mbl ios:type='XCUIElementTypeOther' id='username' idx='1' /&gt;&#xA;" FuzzyAccuracy="0.5" Occurence="0" xmlns="clr-namespace:UiPath.MobileAutomation.Models;assembly=UiPath.MobileAutomation">
+  <imageRef attrName="ImageBase64" xmlns="">0OgT8GPKRt0m-t9aNIiin6A</imageRef>
+</Target>

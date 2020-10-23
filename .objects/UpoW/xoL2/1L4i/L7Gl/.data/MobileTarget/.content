@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Target Accuracy="0.8" ContentHash="gziieTuPM0KWYU38g9rl2w" DesignTimeRectangle="72, 383, 270, 96" FriendlyName="Tap" FullSelector="&lt;mbl ios:type='XCUIElementTypeAlert' id='Alert' /&gt;&#xD;&#xA;&lt;mbl ios:type='XCUIElementTypeScrollView' idx='1' /&gt;&#xD;&#xA;" FuzzyAccuracy="0.5" FuzzySelector="&lt;mbl ios:type='XCUIElementTypeAlert' text='Alert' /&gt;&#xD;&#xA;&lt;mbl ios:type='XCUIElementTypeScrollView' id='' text='' check:text='' /&gt;&#xD;&#xA;" Occurence="0" SearchSteps="Selector, FuzzySelector, Image" xmlns="clr-namespace:UiPath.MobileAutomation.Models;assembly=UiPath.MobileAutomation">
+  <imageRef attrName="ImageBase64" xmlns="">0lJVa0PytiUqRfh4uXj-zVA</imageRef>
+</Target>

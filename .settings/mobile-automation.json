@@ -1,0 +1,83 @@
+{
+  "GenerateCrossPlatformAttributes": false,
+  "GenerateSelectorsForInnerElements": true,
+  "Connections": [
+    {
+      "Name": "Samsung Galaxy S7 WQHD GoogleAPI Emulator",
+      "Description": null,
+      "Url": "https://smes:dcd37053-f1e4-4253-b454-ce4f7b55d8bf@ondemand.eu-central-1.saucelabs.com:443/wd/hub",
+      "PlatformName": "Android",
+      "PlatformVersion": "8.1",
+      "DeviceName": "Samsung Galaxy S7 WQHD GoogleAPI Emulator",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {
+        "newCommandTimeout": "0"
+      },
+      "GeoLocation": {
+        "Latitude": -36.853610992431641,
+        "Longitude": 174.76498413085938,
+        "Altitude": 0.0
+      },
+      "LoggingModel": {
+        "LoggingEnabled": false,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      }
+    },
+    {
+      "Name": "iPhone 11 iOS 13.2",
+      "Description": null,
+      "Url": "https://smes:dcd37053-f1e4-4253-b454-ce4f7b55d8bf@ondemand.eu-central-1.saucelabs.com:443/wd/hub",
+      "PlatformName": "iOS",
+      "PlatformVersion": "13.2",
+      "DeviceName": "iPhone 11 Simulator",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {
+        "newCommandTimeout": "0"
+      },
+      "GeoLocation": null,
+      "LoggingModel": {
+        "LoggingEnabled": false,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      }
+    }
+  ],
+  "Applications": [
+    {
+      "$id": "1",
+      "Name": "TheApp",
+      "Description": null,
+      "Type": "App",
+      "Platforms": {
+        "Android": {
+          "Capabilities": {
+            "recreateChromeDriverSessions": "true",
+            "app": "https://uipathtestappsto.blob.core.windows.net/testapps/TheApp.apk",
+            "appActivity": ".MainActivity",
+            "appPackage": "io.cloudgrey.the_app"
+          },
+          "StartPage": null
+        },
+        "iOS": {
+          "Capabilities": {
+            "app": "https://uipathtestappsto.blob.core.windows.net/testapps/TheApp.ipa"
+          },
+          "StartPage": null
+        }
+      }
+    }
+  ],
+  "NormalizeSliderValue": false,
+  "IdsMaxAllowedLength": 40,
+  "LogsPath": "%TEMP%\\UiPath Mobile Automation Logs",
+  "Variables": {}
+}

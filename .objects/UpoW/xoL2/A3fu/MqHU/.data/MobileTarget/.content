@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Target Accuracy="0.8" ContentHash="e0frxMxIq0Cs_fRoxZGSQw" FriendlyName="Tap " FullSelector="&lt;mbl android:className='android.view.ViewGroup' accessibilityId='Login Screen' /&gt;&#xA;" FuzzyAccuracy="0.5" Occurence="0" xmlns="clr-namespace:UiPath.MobileAutomation.Models;assembly=UiPath.MobileAutomation">
+  <imageRef attrName="ImageBase64" xmlns="">0lbvlpchPeECZJvCvXsm6iw</imageRef>
+</Target>

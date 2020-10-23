@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Target Accuracy="0.8" ContentHash="Edih6xwzaUSjrGIm3k9YSA" FriendlyName="Tap " FullSelector="&lt;mbl android:className='android.widget.Button' id='android:id/button1' /&gt;&#xA;" FuzzyAccuracy="0.5" Occurence="0" xmlns="clr-namespace:UiPath.MobileAutomation.Models;assembly=UiPath.MobileAutomation">
+  <imageRef attrName="ImageBase64" xmlns="">0cPSlUzsNjkeTTN2xX2ze0g</imageRef>
+</Target>
