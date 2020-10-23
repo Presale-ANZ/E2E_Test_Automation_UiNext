@@ -112,14 +112,21 @@
         </sap:WorkflowViewStateService.ViewState>
       </ui:InvokeWorkflowFile>
       <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="229.6,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="Perform Login" />
-      <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Perform Login" sap:VirtualizedContainerService.HintSize="229.6,52.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False">
+      <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Perform Login" sap:VirtualizedContainerService.HintSize="339.2,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False">
         <ui:InvokeWorkflowFile.Arguments>
-          <InArgument x:TypeArguments="x:String" x:Key="UiBankAdmin">[UiBankAdmin]</InArgument>
-          <InArgument x:TypeArguments="ss:SecureString" x:Key="AdminPassword">[AdminPassword]</InArgument>
-          <InArgument x:TypeArguments="x:String" x:Key="AdminUsername">[AdminUsername]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="UiBankAdmin">
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="UiBankAdmin" />
+          </InArgument>
+          <InArgument x:TypeArguments="ss:SecureString" x:Key="AdminPassword">
+            <mva:VisualBasicValue x:TypeArguments="ss:SecureString" ExpressionText="AdminPassword" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="AdminUsername">
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="AdminUsername" />
+          </InArgument>
           <InArgument x:TypeArguments="x:String" x:Key="UiBankAPI">
             <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="UiBankAPI" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_1" />
           </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="UiBankAdminArguments" />
         </ui:InvokeWorkflowFile.Arguments>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -172,13 +179,13 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard CloseMode="Always" DisplayName="Verify User Creation" sap:VirtualizedContainerService.HintSize="433.6,624" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="IfNotOpen">
+      <uix:NApplicationCard CloseMode="Always" DisplayName="Verify User Creation" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="IfNotOpen">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="241.6,332.8" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="241.6,331.2" sap2010:WorkflowViewState.IdRef="Sequence_7">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
