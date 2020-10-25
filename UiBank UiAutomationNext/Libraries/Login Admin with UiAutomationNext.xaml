@@ -1,16 +1,17 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Workflow" this:Workflow.UiBankAdmin="C:\Emerald\UiBank\UiBank Admin\UiBankAdmin.exe" this:Workflow.UiBankAPI="https://uibank-api.uipath.com/api" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Workflow" this:Workflow.UiBankAdmin="C:\Emerald\UiBank\UiBank Admin\UiBankAdmin.exe" this:Workflow.UiBankAPI="https://uibank-api.uipath.com/api" this:Workflow.FolderName="Anthony Seagar" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ss="clr-namespace:System.Security;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="UiBankAdmin" Type="InArgument(x:String)" />
     <x:Property Name="UiBankAPI" Type="InArgument(x:String)" />
     <x:Property Name="UiBankAdminArguments" Type="InArgument(x:String)" />
+    <x:Property Name="FolderName" Type="InArgument(x:String)" />
   </x:Members>
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>955.2,716</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>696,1104.8</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Login_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
-    <scg:List x:TypeArguments="x:String" Capacity="52">
+    <scg:List x:TypeArguments="x:String" Capacity="54">
       <x:String>System.Activities</x:String>
       <x:String>System.Activities.Statements</x:String>
       <x:String>System.Activities.Expressions</x:String>
@@ -38,10 +39,15 @@
       <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
       <x:String>System.Activities.DynamicUpdate</x:String>
       <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.MobileAutomation.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.MobileAutomation.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="52">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="56">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -70,6 +76,8 @@
       <AssemblyReference>UiPath.Activities.Contracts</AssemblyReference>
       <AssemblyReference>UiPath.Platform</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.MobileAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -92,6 +100,7 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
+      <ui:KillProcess Process="{x:Null}" ContinueOnError="True" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="200,22.4" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="UiBankAdmin" />
       <ui:StartProcess WorkingDirectory="{x:Null}" Arguments="[UiBankAdminArguments]" DisplayName="Start App Process" FileName="[UiBankAdmin]" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="StartProcess_3">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -128,6 +137,8 @@
           <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="375.2,860" sap2010:WorkflowViewState.IdRef="Sequence_16">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="Password" />
+              <Variable x:TypeArguments="ss:SecureString" Name="AdminPassword" />
+              <Variable x:TypeArguments="x:String" Name="AdminUsername" />
             </Sequence.Variables>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -135,7 +146,8 @@
                 <x:Boolean x:Key="IsPinned">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="333.6,228" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="admin">
+            <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="UiBank Admin Credentials" DisplayName="Get Admin Credentials" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[AdminPassword]" Username="[AdminUsername]" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="333.6,228" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="[AdminUsername]">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable ContentHash="Edah73JZckSq9sPN2VH_OA" DesignTimeRectangle="254, 54, 170, 25" ElementType="InputBox" FriendlyName="'admin'" FullSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Login' /&gt;&lt;wnd ctrlname='txt_Username' /&gt;" FuzzySelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Login' /&gt;&lt;wnd ctrlname='txt_Username' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAARQAAAAsCAYAAACkLkcNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2HAY/l8WUAAAIPSURBVHhe7drbjeowFAXQ1JWCUgRVpBqaoRjm2MRmMFjcBEvojtYabSmJH8yPtxTEdAUYRKEAw9RCOZ1OIiKHUigUEfk4xVOhAPwrhQIMo1CAYRQKMIxCAYZRKMAwCgUYRqEAw3yvUC5rzjzfckmPbiPAf0qhAMP8nUJRUPB1CgUY5u8UCvB1CgUYZn+hnJeceZpyppo5Zzlfc6qtOJZ5yinz53nOmaJMUi4xJ2WeY+/IssRekTp/Pees8Szl/nmXnKeCava7r3vz/wKHKRSFAsPsL5Se9kBvf2uUSEo9+JtLlFLKU6HEIU9ZY2pK3bf3vHxeXN8KpLnf1rWfX4uxzI9Hv0aBAxRKmR+Pfo0CB+wvlDikKUu8rqTcXyG2xOF8KIjegd32qeO9+e283vO4fljf3pd1RYy93Bc4TKH0xoHddhfKkl4f0qtHvD6kVO0BjetdB7o3v53Xex7XD+vb+7KuiLGX+wKHKZTeOLDbgUJZcuqXo5vLuuTUV57tr/ul7DrnvH1F6h389nlcP6xv78u6IsZe7gscplB648BuuwulFEf7w7anH6qlubcFt4Pbzl9ifko50DHnZQGU9e+ex/XD+va+rCti7OW+wGEKpTcO7La7UAB6FAowjEIBhlEowDAKBRhGoQDDKBRgGIUCDKNQgGEUCjDM20IREdmbQqGIyMcpaqEAfEqhAINcrz9W6igLukRDYwAAAABJRU5ErkJggg==" InformativeScreenshot="14c9cf5537daf85813d40837fa7952a7.png" Reference="ib0ysiSxwkqS-hr6JqXlzg/ncMznGLunUSNfjgI7xabww" SearchSteps="Selector, FuzzySelector, Image" Text="admin" TextMethod="AttributeText" TextSelector="&lt;wnd /&gt;">
                   <uix:TargetAnchorable.Anchors>
@@ -151,8 +163,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NTypeInto>
-            <ui:GetPassword DisplayName="Get Password" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="GetPassword_2" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAATQIX8dNKAE2Y2y8DLcGf5AAAAAACAAAAAAAQZgAAAAEAACAAAADM5CD+kJXFL51AhT2cXv6U1TLfnEGXGDG4E6AJWDo4MwAAAAAOgAAAAAIAACAAAACs/XP3ND5htv3j3uEcBmHHVf+cZ/Z93kAo7D7pytj1aRAAAACtFaw71czgsWeRKeP3KI2OQAAAACxFscwPy2SJIlHKA9l9PlsrtGH6EGOqS0CKPBAy55UaXxwTMsg5PiJOrXiRFhOs/0/oeS5nBqsZo+6ZGK6F2pg=" Result="[Password]" />
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="333.6,228" sap2010:WorkflowViewState.IdRef="NTypeInto_2" Text="[Password]">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="333.6,228" sap2010:WorkflowViewState.IdRef="NTypeInto_2" SecureText="[AdminPassword]">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable ContentHash="kYnudTnKOE2UyvwGGsdT1A" DesignTimeRectangle="253, 86, 170, 25" ElementType="InputBox" FriendlyName="'Password'" FullSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Login' /&gt;&lt;wnd ctrlname='txt_Password' /&gt;" FuzzySelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Login' /&gt;&lt;wnd ctrlname='txt_Password' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAARQAAAAsCAYAAACkLkcNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2HAY/l8WUAAAD/SURBVHhe7dfBjYMwFEVR6kpBLoIqqMbNUIwnsUQ2yMoY3gqdI73VX/tKXhpAiKAAMd+grOtqZnZpB0Exs9s7nIIC8F+CAsQIChAjKECMoAAxggLECAoQIyhAzPWg1NJXaus7efodOBGUq3fgZDooe936ymvpW16lb6t739PvwJigTN6BsemgtH3rK+9/wGd1K33b+6199vg7MCQos3dgaD4oAAOCAsQIChAjKECMoAAxggLECAoQIyhAjKAAMYICxAgKECMoQIygADGCAsQIChAjKECMoAAxggLECAoQIyhAjKAAMYICxPwMipnZ7A6CYma3d/gGBeAuQQFCWvsDIGMHnTh16lQAAAAASUVORK5CYII=" InformativeScreenshot="be3c0d37f0f9fb26b1a107e3c95460bc.png" Reference="ib0ysiSxwkqS-hr6JqXlzg/bbMz2fdgg0WiPRzdxFBW-g" SearchSteps="Selector, FuzzySelector, Image" Text="Password" TextMethod="AttributeText" TextSelector="&lt;wnd /&gt;">
                   <uix:TargetAnchorable.Anchors>
@@ -243,7 +254,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <uix:NApplicationCard CloseMode="Never" DisplayName="Submit Login" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" OpenMode="IfNotOpen">
+    <uix:NApplicationCard CloseMode="IfOpenedByAppBrowser" DisplayName="Submit Login" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" OpenMode="IfNotOpen">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
