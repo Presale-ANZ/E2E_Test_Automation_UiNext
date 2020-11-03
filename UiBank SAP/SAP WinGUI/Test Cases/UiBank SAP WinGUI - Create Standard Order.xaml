@@ -1,6 +1,6 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Test" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="994.4,871.2" sap2010:WorkflowViewState.IdRef="Create_Sales_Order_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ucas="clr-namespace:UiPath.Core.Activities.SAP;assembly=UiPath.UiAutomation.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Test" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1164.8,760" sap2010:WorkflowViewState.IdRef="Create_Sales_Order_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ucas="clr-namespace:UiPath.Core.Activities.SAP;assembly=UiPath.UiAutomation.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
-    <scg:List x:TypeArguments="x:String" Capacity="21">
+    <scg:List x:TypeArguments="x:String" Capacity="42">
       <x:String>System.Activities</x:String>
       <x:String>System.Activities.Statements</x:String>
       <x:String>System.Activities.Expressions</x:String>
@@ -22,6 +22,7 @@
       <x:String>UiPath.Core</x:String>
       <x:String>UiPath.Core.Activities</x:String>
       <x:String>System.Windows.Markup</x:String>
+      <x:String>System.ComponentModel</x:String>
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -58,7 +59,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Test Case" sap:VirtualizedContainerService.HintSize="283.2,532.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
+  <Sequence DisplayName="Test Case" sap:VirtualizedContainerService.HintSize="283.2,595.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="MessageType" />
       <Variable x:TypeArguments="x:String" Name="MessageText" />
@@ -68,16 +69,8 @@
       <Variable x:TypeArguments="x:String" Default="OR" Name="OrderType" />
       <Variable x:TypeArguments="x:String" Default="1710" Name="Plant" />
       <Variable x:TypeArguments="x:String" Default="1710" Name="SalesOrganisation" />
-      <Variable x:TypeArguments="x:String" Name="ShiptoParty">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:String">EWM17-CU01</Literal>
-        </Variable.Default>
-      </Variable>
-      <Variable x:TypeArguments="x:String" Name="SoldtoParty">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:String">EWM17-CU01</Literal>
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:String" Default="EWM17-CU01" Name="ShiptoParty" />
+      <Variable x:TypeArguments="x:String" Default="EWM17-CU01" Name="SoldtoParty" />
       <Variable x:TypeArguments="s:String[]" Name="MessageData" />
       <Variable x:TypeArguments="x:String" Name="OrderNumber" />
     </Sequence.Variables>
@@ -87,13 +80,14 @@
         <x:Boolean x:Key="IsPinned">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Given" sap:VirtualizedContainerService.HintSize="241.6,145.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Given" sap:VirtualizedContainerService.HintSize="241.6,208" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
+      <ui:KillProcess Process="{x:Null}" ContinueOnError="True" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="200,22.4" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="saplogon" />
       <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Login User" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="UiBank SAP\SAP WinGUI\Test Cases\Libraries\Login User.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <scg:Dictionary x:TypeArguments="x:String, Argument" />
@@ -115,40 +109,18 @@
       </sap:WorkflowViewStateService.ViewState>
       <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Create Order" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="UiBank SAP\SAP WinGUI\Test Cases\Libraries\Create Order.xaml">
         <ui:InvokeWorkflowFile.Arguments>
-          <InArgument x:TypeArguments="x:String" x:Key="OrderType">
-            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="OrderType" />
-          </InArgument>
-          <InArgument x:TypeArguments="x:String" x:Key="SalesOrganisation">
-            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="SalesOrganisation" />
-          </InArgument>
-          <InArgument x:TypeArguments="x:String" x:Key="DistributionChannel">
-            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="DistributionChannel" />
-          </InArgument>
-          <InArgument x:TypeArguments="x:String" x:Key="SoldtoParty">
-            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="SoldtoParty" />
-          </InArgument>
-          <InArgument x:TypeArguments="x:String" x:Key="ShiptoParty">
-            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="ShiptoParty" />
-          </InArgument>
-          <InArgument x:TypeArguments="x:String" x:Key="Plant">
-            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="Plant" />
-          </InArgument>
-          <InArgument x:TypeArguments="x:Int32" x:Key="Materials">
-            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="Materials" />
-          </InArgument>
-          <OutArgument x:TypeArguments="x:String" x:Key="MessageType">
-            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="MessageType" />
-          </OutArgument>
-          <OutArgument x:TypeArguments="x:String" x:Key="MessageText">
-            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="MessageText" />
-          </OutArgument>
-          <OutArgument x:TypeArguments="x:String" x:Key="MessageNumber">
-            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="MessageNumber" />
-          </OutArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="OrderType">[OrderType]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="SalesOrganisation">[SalesOrganisation]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="DistributionChannel">[DistributionChannel]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="SoldtoParty">[SoldtoParty]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="ShiptoParty">[ShiptoParty]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="Plant">[Plant]</InArgument>
+          <InArgument x:TypeArguments="x:Int32" x:Key="Materials">[Materials]</InArgument>
+          <OutArgument x:TypeArguments="x:String" x:Key="MessageType">[MessageType]</OutArgument>
+          <OutArgument x:TypeArguments="x:String" x:Key="MessageText">[MessageText]</OutArgument>
+          <OutArgument x:TypeArguments="x:String" x:Key="MessageNumber">[MessageNumber]</OutArgument>
           <OutArgument x:TypeArguments="x:String" x:Key="MessageID" />
-          <OutArgument x:TypeArguments="s:String[]" x:Key="MessageData">
-            <mva:VisualBasicReference x:TypeArguments="s:String[]" ExpressionText="MessageData" />
-          </OutArgument>
+          <OutArgument x:TypeArguments="s:String[]" x:Key="MessageData">[MessageData]</OutArgument>
         </ui:InvokeWorkflowFile.Arguments>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -158,7 +130,7 @@
         </sap:WorkflowViewStateService.ViewState>
       </ui:InvokeWorkflowFile>
     </Sequence>
-    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="304,431.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="241.6,68.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
