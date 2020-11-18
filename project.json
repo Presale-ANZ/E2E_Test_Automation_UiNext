@@ -1,6 +1,6 @@
 {
-  "name": "Anthony Seagar E2E Automation UiNext",
-  "description": "Anthony Seagar E2E UiBank Test Automation Project",
+  "name": "E2E Automation UiNext",
+  "description": "E2E UiBank Test Automation Project",
   "main": "Main.xaml",
   "dependencies": {
     "Faker.Data": "[1.0.8]",
