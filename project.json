@@ -1,5 +1,5 @@
 {
-  "name": "E2E Automation UiNext",
+  "name": "E2E Test Automation UiNext",
   "description": "E2E UiBank Test Automation Project",
   "main": "Main.xaml",
   "dependencies": {
